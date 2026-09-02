@@ -1,0 +1,39 @@
+# OpenRT text-only environment, pinned for the supplied Python 3.11 / CUDA 12.8 stack.
+# The installed local versions 2.8.0+cu128 and 0.23.0+cu128 satisfy the
+# torch==2.8.0 and torchvision==0.23.0 pins below (PEP 440 local versions).
+
+# Existing GPU/runtime stack: keep these versions together.
+torch==2.8.0
+torchvision==0.23.0
+torchaudio==2.8.0
+transformers==4.55.4
+tokenizers==0.21.4
+accelerate==1.13.0
+vllm==0.10.2
+openai-harmony==0.0.4
+xformers==0.0.32.post1
+triton==3.4.0
+sentencepiece==0.2.1
+Pillow==12.2.0
+
+# Existing local endpoint and data stack.
+openai==2.38.0
+python-dotenv==1.2.2
+httpx==0.28.1
+numpy==2.2.6
+scipy==1.17.1
+pandas==3.0.3
+protobuf==7.35.0
+rich==15.0.0
+tqdm==4.67.3
+matplotlib==3.10.9
+seaborn==0.13.2
+
+# Missing add-ons needed by the supported 29 attacks.
+sentence-transformers==5.1.0
+scikit-learn==1.7.2
+nltk==3.9.2
+art==6.5
+
+# Deliberately omitted: diffusers and spacy are only used by excluded
+# image/multimodal attack paths in this local text-only runner.

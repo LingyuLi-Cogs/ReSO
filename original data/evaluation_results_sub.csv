@@ -1,0 +1,1153 @@
+model,variant,benchmark,bench_key,facet,value
+Qwen3-8B,Base,HarmBench,harmbench,contextual,45.92
+Qwen3-8B,Base,HarmBench,harmbench,standard,87.5
+Qwen3-8B,DPO,HarmBench,harmbench,contextual,30.61
+Qwen3-8B,DPO,HarmBench,harmbench,standard,78.0
+Qwen3-8B,ReSo,HarmBench,harmbench,contextual,65.66
+Qwen3-8B,ReSo,HarmBench,harmbench,standard,95.0
+Qwen3-8B,ReSo-shuffle,HarmBench,harmbench,contextual,52.04
+Qwen3-8B,ReSo-shuffle,HarmBench,harmbench,standard,88.0
+Qwen3-8B,Base,DeceptionBench,deceptionbench,economy,48.61
+Qwen3-8B,Base,DeceptionBench,deceptionbench,education,59.72
+Qwen3-8B,Base,DeceptionBench,deceptionbench,entertainment,34.44
+Qwen3-8B,Base,DeceptionBench,deceptionbench,healthcare,53.34
+Qwen3-8B,Base,DeceptionBench,deceptionbench,social,37.5
+Qwen3-8B,DPO,DeceptionBench,deceptionbench,economy,26.94
+Qwen3-8B,DPO,DeceptionBench,deceptionbench,education,52.23
+Qwen3-8B,DPO,DeceptionBench,deceptionbench,entertainment,20.28
+Qwen3-8B,DPO,DeceptionBench,deceptionbench,healthcare,48.33
+Qwen3-8B,DPO,DeceptionBench,deceptionbench,social,23.89
+Qwen3-8B,ReSo,DeceptionBench,deceptionbench,economy,76.67
+Qwen3-8B,ReSo,DeceptionBench,deceptionbench,education,76.11
+Qwen3-8B,ReSo,DeceptionBench,deceptionbench,entertainment,63.88
+Qwen3-8B,ReSo,DeceptionBench,deceptionbench,healthcare,66.11
+Qwen3-8B,ReSo,DeceptionBench,deceptionbench,social,59.16
+Qwen3-8B,ReSo-shuffle,DeceptionBench,deceptionbench,economy,58.34
+Qwen3-8B,ReSo-shuffle,DeceptionBench,deceptionbench,education,68.05
+Qwen3-8B,ReSo-shuffle,DeceptionBench,deceptionbench,entertainment,46.39
+Qwen3-8B,ReSo-shuffle,DeceptionBench,deceptionbench,healthcare,62.5
+Qwen3-8B,ReSo-shuffle,DeceptionBench,deceptionbench,social,47.5
+Qwen3-8B,Base,OpenRT,openrt,actorattack,82.5
+Qwen3-8B,Base,OpenRT,openrt,artprompt,84.17
+Qwen3-8B,Base,OpenRT,openrt,autodan,74.17
+Qwen3-8B,Base,OpenRT,openrt,autodan_r,71.53
+Qwen3-8B,Base,OpenRT,openrt,cipherchat,91.25
+Qwen3-8B,Base,OpenRT,openrt,coa,98.75
+Qwen3-8B,Base,OpenRT,openrt,codeattack,53.33
+Qwen3-8B,Base,OpenRT,openrt,crescendo,58.33
+Qwen3-8B,Base,OpenRT,openrt,deepinception,92.08
+Qwen3-8B,Base,OpenRT,openrt,drattack,46.0
+Qwen3-8B,Base,OpenRT,openrt,flipattack,97.92
+Qwen3-8B,Base,OpenRT,openrt,gcg,91.67
+Qwen3-8B,Base,OpenRT,openrt,gptfuzzer,70.42
+Qwen3-8B,Base,OpenRT,openrt,ica,99.17
+Qwen3-8B,Base,OpenRT,openrt,jailbroken,88.33
+Qwen3-8B,Base,OpenRT,openrt,laa,22.92
+Qwen3-8B,Base,OpenRT,openrt,mousetrap,92.08
+Qwen3-8B,Base,OpenRT,openrt,multilingual,99.58
+Qwen3-8B,Base,OpenRT,openrt,pair,72.92
+Qwen3-8B,Base,OpenRT,openrt,pasttense,82.5
+Qwen3-8B,Base,OpenRT,openrt,prefill,94.58
+Qwen3-8B,Base,OpenRT,openrt,race,89.58
+Qwen3-8B,Base,OpenRT,openrt,redqueen,96.25
+Qwen3-8B,Base,OpenRT,openrt,renellm,15.42
+Qwen3-8B,Base,OpenRT,openrt,seqar,44.58
+Qwen3-8B,Base,OpenRT,openrt,treeattack,72.5
+Qwen3-8B,Base,OpenRT,openrt,xteaming,48.75
+Qwen3-8B,DPO,OpenRT,openrt,actorattack,75.42
+Qwen3-8B,DPO,OpenRT,openrt,artprompt,81.67
+Qwen3-8B,DPO,OpenRT,openrt,autodan,63.75
+Qwen3-8B,DPO,OpenRT,openrt,autodan_r,57.94
+Qwen3-8B,DPO,OpenRT,openrt,cipherchat,89.58
+Qwen3-8B,DPO,OpenRT,openrt,coa,97.08
+Qwen3-8B,DPO,OpenRT,openrt,codeattack,57.08
+Qwen3-8B,DPO,OpenRT,openrt,crescendo,55.83
+Qwen3-8B,DPO,OpenRT,openrt,deepinception,81.25
+Qwen3-8B,DPO,OpenRT,openrt,drattack,42.67
+Qwen3-8B,DPO,OpenRT,openrt,flipattack,99.17
+Qwen3-8B,DPO,OpenRT,openrt,gcg,86.67
+Qwen3-8B,DPO,OpenRT,openrt,gptfuzzer,60.83
+Qwen3-8B,DPO,OpenRT,openrt,ica,97.5
+Qwen3-8B,DPO,OpenRT,openrt,jailbroken,85.0
+Qwen3-8B,DPO,OpenRT,openrt,laa,25.83
+Qwen3-8B,DPO,OpenRT,openrt,mousetrap,91.67
+Qwen3-8B,DPO,OpenRT,openrt,multilingual,98.75
+Qwen3-8B,DPO,OpenRT,openrt,pair,64.17
+Qwen3-8B,DPO,OpenRT,openrt,pasttense,68.75
+Qwen3-8B,DPO,OpenRT,openrt,prefill,86.67
+Qwen3-8B,DPO,OpenRT,openrt,race,90.0
+Qwen3-8B,DPO,OpenRT,openrt,redqueen,96.67
+Qwen3-8B,DPO,OpenRT,openrt,renellm,14.17
+Qwen3-8B,DPO,OpenRT,openrt,seqar,41.25
+Qwen3-8B,DPO,OpenRT,openrt,treeattack,59.17
+Qwen3-8B,DPO,OpenRT,openrt,xteaming,40.83
+Qwen3-8B,ReSo,OpenRT,openrt,actorattack,88.75
+Qwen3-8B,ReSo,OpenRT,openrt,artprompt,87.92
+Qwen3-8B,ReSo,OpenRT,openrt,autodan,84.17
+Qwen3-8B,ReSo,OpenRT,openrt,autodan_r,81.48
+Qwen3-8B,ReSo,OpenRT,openrt,cipherchat,91.67
+Qwen3-8B,ReSo,OpenRT,openrt,coa,97.92
+Qwen3-8B,ReSo,OpenRT,openrt,codeattack,63.75
+Qwen3-8B,ReSo,OpenRT,openrt,crescendo,65.0
+Qwen3-8B,ReSo,OpenRT,openrt,deepinception,95.83
+Qwen3-8B,ReSo,OpenRT,openrt,drattack,68.87
+Qwen3-8B,ReSo,OpenRT,openrt,flipattack,97.08
+Qwen3-8B,ReSo,OpenRT,openrt,gcg,96.67
+Qwen3-8B,ReSo,OpenRT,openrt,gptfuzzer,77.5
+Qwen3-8B,ReSo,OpenRT,openrt,ica,100.0
+Qwen3-8B,ReSo,OpenRT,openrt,jailbroken,96.25
+Qwen3-8B,ReSo,OpenRT,openrt,laa,31.25
+Qwen3-8B,ReSo,OpenRT,openrt,mousetrap,88.33
+Qwen3-8B,ReSo,OpenRT,openrt,multilingual,100.0
+Qwen3-8B,ReSo,OpenRT,openrt,pair,77.5
+Qwen3-8B,ReSo,OpenRT,openrt,pasttense,93.33
+Qwen3-8B,ReSo,OpenRT,openrt,prefill,96.25
+Qwen3-8B,ReSo,OpenRT,openrt,race,90.83
+Qwen3-8B,ReSo,OpenRT,openrt,redqueen,97.5
+Qwen3-8B,ReSo,OpenRT,openrt,renellm,9.58
+Qwen3-8B,ReSo,OpenRT,openrt,seqar,62.92
+Qwen3-8B,ReSo,OpenRT,openrt,treeattack,80.42
+Qwen3-8B,ReSo,OpenRT,openrt,xteaming,49.17
+Qwen3-8B,ReSo-shuffle,OpenRT,openrt,actorattack,80.0
+Qwen3-8B,ReSo-shuffle,OpenRT,openrt,artprompt,85.42
+Qwen3-8B,ReSo-shuffle,OpenRT,openrt,autodan,76.67
+Qwen3-8B,ReSo-shuffle,OpenRT,openrt,autodan_r,73.72
+Qwen3-8B,ReSo-shuffle,OpenRT,openrt,cipherchat,90.0
+Qwen3-8B,ReSo-shuffle,OpenRT,openrt,coa,98.75
+Qwen3-8B,ReSo-shuffle,OpenRT,openrt,codeattack,61.25
+Qwen3-8B,ReSo-shuffle,OpenRT,openrt,crescendo,61.67
+Qwen3-8B,ReSo-shuffle,OpenRT,openrt,deepinception,96.25
+Qwen3-8B,ReSo-shuffle,OpenRT,openrt,drattack,54.97
+Qwen3-8B,ReSo-shuffle,OpenRT,openrt,flipattack,97.08
+Qwen3-8B,ReSo-shuffle,OpenRT,openrt,gcg,93.33
+Qwen3-8B,ReSo-shuffle,OpenRT,openrt,gptfuzzer,72.92
+Qwen3-8B,ReSo-shuffle,OpenRT,openrt,ica,99.58
+Qwen3-8B,ReSo-shuffle,OpenRT,openrt,jailbroken,91.67
+Qwen3-8B,ReSo-shuffle,OpenRT,openrt,laa,22.5
+Qwen3-8B,ReSo-shuffle,OpenRT,openrt,mousetrap,90.0
+Qwen3-8B,ReSo-shuffle,OpenRT,openrt,multilingual,99.58
+Qwen3-8B,ReSo-shuffle,OpenRT,openrt,pair,76.25
+Qwen3-8B,ReSo-shuffle,OpenRT,openrt,pasttense,83.75
+Qwen3-8B,ReSo-shuffle,OpenRT,openrt,prefill,95.83
+Qwen3-8B,ReSo-shuffle,OpenRT,openrt,race,92.92
+Qwen3-8B,ReSo-shuffle,OpenRT,openrt,redqueen,93.33
+Qwen3-8B,ReSo-shuffle,OpenRT,openrt,renellm,16.67
+Qwen3-8B,ReSo-shuffle,OpenRT,openrt,seqar,50.42
+Qwen3-8B,ReSo-shuffle,OpenRT,openrt,treeattack,71.67
+Qwen3-8B,ReSo-shuffle,OpenRT,openrt,xteaming,53.33
+Qwen3-8B,Base,XSTest,xstest,safe compliance,95.6
+Qwen3-8B,Base,XSTest,xstest,unsafe refusal,79.0
+Qwen3-8B,DPO,XSTest,xstest,safe compliance,95.2
+Qwen3-8B,DPO,XSTest,xstest,unsafe refusal,78.0
+Qwen3-8B,ReSo,XSTest,xstest,safe compliance,78.4
+Qwen3-8B,ReSo,XSTest,xstest,unsafe refusal,87.0
+Qwen3-8B,ReSo-shuffle,XSTest,xstest,safe compliance,96.0
+Qwen3-8B,ReSo-shuffle,XSTest,xstest,unsafe refusal,78.5
+Qwen3-8B,Base,ETHICS,ethics,dil,28.86
+Qwen3-8B,Base,ETHICS,ethics,mfq,89.33
+Qwen3-8B,Base,ETHICS,ethics,wvs,86.57
+Qwen3-8B,DPO,ETHICS,ethics,dil,28.21
+Qwen3-8B,DPO,ETHICS,ethics,mfq,92.53
+Qwen3-8B,DPO,ETHICS,ethics,wvs,86.57
+Qwen3-8B,ReSo,ETHICS,ethics,dil,28.69
+Qwen3-8B,ReSo,ETHICS,ethics,mfq,82.93
+Qwen3-8B,ReSo,ETHICS,ethics,wvs,86.76
+Qwen3-8B,ReSo-shuffle,ETHICS,ethics,dil,28.54
+Qwen3-8B,ReSo-shuffle,ETHICS,ethics,mfq,89.73
+Qwen3-8B,ReSo-shuffle,ETHICS,ethics,wvs,82.95
+Qwen3-8B,Base,FLAMES,flames,Data protection,45.78
+Qwen3-8B,Base,FLAMES,flames,Fairness,74.83
+Qwen3-8B,Base,FLAMES,flames,Legality,62.32
+Qwen3-8B,Base,FLAMES,flames,Morality,78.28
+Qwen3-8B,Base,FLAMES,flames,Safety,57.81
+Qwen3-8B,DPO,FLAMES,flames,Data protection,44.89
+Qwen3-8B,DPO,FLAMES,flames,Fairness,73.9
+Qwen3-8B,DPO,FLAMES,flames,Legality,53.62
+Qwen3-8B,DPO,FLAMES,flames,Morality,75.29
+Qwen3-8B,DPO,FLAMES,flames,Safety,58.04
+Qwen3-8B,ReSo,FLAMES,flames,Data protection,53.78
+Qwen3-8B,ReSo,FLAMES,flames,Fairness,77.38
+Qwen3-8B,ReSo,FLAMES,flames,Legality,65.22
+Qwen3-8B,ReSo,FLAMES,flames,Morality,78.77
+Qwen3-8B,ReSo,FLAMES,flames,Safety,61.07
+Qwen3-8B,ReSo-shuffle,FLAMES,flames,Data protection,47.56
+Qwen3-8B,ReSo-shuffle,FLAMES,flames,Fairness,75.5
+Qwen3-8B,ReSo-shuffle,FLAMES,flames,Legality,63.77
+Qwen3-8B,ReSo-shuffle,FLAMES,flames,Morality,77.45
+Qwen3-8B,ReSo-shuffle,FLAMES,flames,Safety,58.9
+Qwen3-8B,Base,MoReBench,morebench,ai_advisor,63.7
+Qwen3-8B,Base,MoReBench,morebench,ai_agent,62.6
+Qwen3-8B,Base,MoReBench,morebench,ai_risk,62.9
+Qwen3-8B,Base,MoReBench,morebench,clear process,65.2
+Qwen3-8B,Base,MoReBench,morebench,daily_dilemmas,63.0
+Qwen3-8B,Base,MoReBench,morebench,expert_written,64.4
+Qwen3-8B,Base,MoReBench,morebench,harmless outcome,85.9
+Qwen3-8B,Base,MoReBench,morebench,helpful outcome,45.7
+Qwen3-8B,Base,MoReBench,morebench,identifying,63.4
+Qwen3-8B,Base,MoReBench,morebench,logical process,56.8
+Qwen3-8B,DPO,MoReBench,morebench,ai_advisor,64.3
+Qwen3-8B,DPO,MoReBench,morebench,ai_agent,62.7
+Qwen3-8B,DPO,MoReBench,morebench,ai_risk,63.1
+Qwen3-8B,DPO,MoReBench,morebench,clear process,66.3
+Qwen3-8B,DPO,MoReBench,morebench,daily_dilemmas,63.4
+Qwen3-8B,DPO,MoReBench,morebench,expert_written,65.3
+Qwen3-8B,DPO,MoReBench,morebench,harmless outcome,86.2
+Qwen3-8B,DPO,MoReBench,morebench,helpful outcome,45.2
+Qwen3-8B,DPO,MoReBench,morebench,identifying,63.4
+Qwen3-8B,DPO,MoReBench,morebench,logical process,57.6
+Qwen3-8B,ReSo,MoReBench,morebench,ai_advisor,64.3
+Qwen3-8B,ReSo,MoReBench,morebench,ai_agent,64.7
+Qwen3-8B,ReSo,MoReBench,morebench,ai_risk,65.0
+Qwen3-8B,ReSo,MoReBench,morebench,clear process,66.9
+Qwen3-8B,ReSo,MoReBench,morebench,daily_dilemmas,63.4
+Qwen3-8B,ReSo,MoReBench,morebench,expert_written,65.7
+Qwen3-8B,ReSo,MoReBench,morebench,harmless outcome,87.3
+Qwen3-8B,ReSo,MoReBench,morebench,helpful outcome,47.9
+Qwen3-8B,ReSo,MoReBench,morebench,identifying,63.6
+Qwen3-8B,ReSo,MoReBench,morebench,logical process,58.2
+Qwen3-8B,ReSo-shuffle,MoReBench,morebench,ai_advisor,64.3
+Qwen3-8B,ReSo-shuffle,MoReBench,morebench,ai_agent,62.7
+Qwen3-8B,ReSo-shuffle,MoReBench,morebench,ai_risk,63.0
+Qwen3-8B,ReSo-shuffle,MoReBench,morebench,clear process,66.5
+Qwen3-8B,ReSo-shuffle,MoReBench,morebench,daily_dilemmas,63.7
+Qwen3-8B,ReSo-shuffle,MoReBench,morebench,expert_written,64.7
+Qwen3-8B,ReSo-shuffle,MoReBench,morebench,harmless outcome,86.5
+Qwen3-8B,ReSo-shuffle,MoReBench,morebench,helpful outcome,45.7
+Qwen3-8B,ReSo-shuffle,MoReBench,morebench,identifying,63.0
+Qwen3-8B,ReSo-shuffle,MoReBench,morebench,logical process,57.8
+Qwen3-8B,Base,HaluEval,halueval,dialogue,73.31
+Qwen3-8B,Base,HaluEval,halueval,qa,63.64
+Qwen3-8B,Base,HaluEval,halueval,summarization,69.04
+Qwen3-8B,DPO,HaluEval,halueval,dialogue,74.1
+Qwen3-8B,DPO,HaluEval,halueval,qa,63.84
+Qwen3-8B,DPO,HaluEval,halueval,summarization,68.5
+Qwen3-8B,ReSo,HaluEval,halueval,dialogue,73.25
+Qwen3-8B,ReSo,HaluEval,halueval,qa,64.0
+Qwen3-8B,ReSo,HaluEval,halueval,summarization,69.05
+Qwen3-8B,ReSo-shuffle,HaluEval,halueval,dialogue,73.1
+Qwen3-8B,ReSo-shuffle,HaluEval,halueval,qa,63.47
+Qwen3-8B,ReSo-shuffle,HaluEval,halueval,summarization,68.6
+Qwen3-8B,Base,MMLU-Pro,mmlu-pro,biology,78.8
+Qwen3-8B,Base,MMLU-Pro,mmlu-pro,business,69.71
+Qwen3-8B,Base,MMLU-Pro,mmlu-pro,chemistry,67.05
+Qwen3-8B,Base,MMLU-Pro,mmlu-pro,computer science,66.34
+Qwen3-8B,Base,MMLU-Pro,mmlu-pro,economics,72.63
+Qwen3-8B,Base,MMLU-Pro,mmlu-pro,engineering,52.01
+Qwen3-8B,Base,MMLU-Pro,mmlu-pro,health,62.71
+Qwen3-8B,Base,MMLU-Pro,mmlu-pro,history,49.34
+Qwen3-8B,Base,MMLU-Pro,mmlu-pro,law,31.61
+Qwen3-8B,Base,MMLU-Pro,mmlu-pro,math,79.94
+Qwen3-8B,Base,MMLU-Pro,mmlu-pro,other,55.63
+Qwen3-8B,Base,MMLU-Pro,mmlu-pro,philosophy,52.91
+Qwen3-8B,Base,MMLU-Pro,mmlu-pro,physics,66.2
+Qwen3-8B,Base,MMLU-Pro,mmlu-pro,psychology,69.17
+Qwen3-8B,Base,MMLU-Pro,mmlu-pro,total,63.02
+Qwen3-8B,DPO,MMLU-Pro,mmlu-pro,biology,78.94
+Qwen3-8B,DPO,MMLU-Pro,mmlu-pro,business,69.71
+Qwen3-8B,DPO,MMLU-Pro,mmlu-pro,chemistry,66.7
+Qwen3-8B,DPO,MMLU-Pro,mmlu-pro,computer science,64.63
+Qwen3-8B,DPO,MMLU-Pro,mmlu-pro,economics,73.1
+Qwen3-8B,DPO,MMLU-Pro,mmlu-pro,engineering,52.12
+Qwen3-8B,DPO,MMLU-Pro,mmlu-pro,health,63.57
+Qwen3-8B,DPO,MMLU-Pro,mmlu-pro,history,49.87
+Qwen3-8B,DPO,MMLU-Pro,mmlu-pro,law,30.52
+Qwen3-8B,DPO,MMLU-Pro,mmlu-pro,math,78.16
+Qwen3-8B,DPO,MMLU-Pro,mmlu-pro,other,56.17
+Qwen3-8B,DPO,MMLU-Pro,mmlu-pro,philosophy,52.91
+Qwen3-8B,DPO,MMLU-Pro,mmlu-pro,physics,63.82
+Qwen3-8B,DPO,MMLU-Pro,mmlu-pro,psychology,68.8
+Qwen3-8B,DPO,MMLU-Pro,mmlu-pro,total,62.51
+Qwen3-8B,ReSo,MMLU-Pro,mmlu-pro,biology,77.68
+Qwen3-8B,ReSo,MMLU-Pro,mmlu-pro,business,67.43
+Qwen3-8B,ReSo,MMLU-Pro,mmlu-pro,chemistry,65.64
+Qwen3-8B,ReSo,MMLU-Pro,mmlu-pro,computer science,65.12
+Qwen3-8B,ReSo,MMLU-Pro,mmlu-pro,economics,72.63
+Qwen3-8B,ReSo,MMLU-Pro,mmlu-pro,engineering,50.05
+Qwen3-8B,ReSo,MMLU-Pro,mmlu-pro,health,61.49
+Qwen3-8B,ReSo,MMLU-Pro,mmlu-pro,history,49.61
+Qwen3-8B,ReSo,MMLU-Pro,mmlu-pro,law,31.43
+Qwen3-8B,ReSo,MMLU-Pro,mmlu-pro,math,77.79
+Qwen3-8B,ReSo,MMLU-Pro,mmlu-pro,other,56.17
+Qwen3-8B,ReSo,MMLU-Pro,mmlu-pro,philosophy,52.71
+Qwen3-8B,ReSo,MMLU-Pro,mmlu-pro,physics,65.97
+Qwen3-8B,ReSo,MMLU-Pro,mmlu-pro,psychology,67.92
+Qwen3-8B,ReSo,MMLU-Pro,mmlu-pro,total,62.06
+Qwen3-8B,ReSo-shuffle,MMLU-Pro,mmlu-pro,biology,77.96
+Qwen3-8B,ReSo-shuffle,MMLU-Pro,mmlu-pro,business,68.57
+Qwen3-8B,ReSo-shuffle,MMLU-Pro,mmlu-pro,chemistry,66.43
+Qwen3-8B,ReSo-shuffle,MMLU-Pro,mmlu-pro,computer science,66.1
+Qwen3-8B,ReSo-shuffle,MMLU-Pro,mmlu-pro,economics,72.04
+Qwen3-8B,ReSo-shuffle,MMLU-Pro,mmlu-pro,engineering,51.7
+Qwen3-8B,ReSo-shuffle,MMLU-Pro,mmlu-pro,health,62.47
+Qwen3-8B,ReSo-shuffle,MMLU-Pro,mmlu-pro,history,51.18
+Qwen3-8B,ReSo-shuffle,MMLU-Pro,mmlu-pro,law,31.97
+Qwen3-8B,ReSo-shuffle,MMLU-Pro,mmlu-pro,math,76.68
+Qwen3-8B,ReSo-shuffle,MMLU-Pro,mmlu-pro,other,55.41
+Qwen3-8B,ReSo-shuffle,MMLU-Pro,mmlu-pro,philosophy,53.91
+Qwen3-8B,ReSo-shuffle,MMLU-Pro,mmlu-pro,physics,65.05
+Qwen3-8B,ReSo-shuffle,MMLU-Pro,mmlu-pro,psychology,68.67
+Qwen3-8B,ReSo-shuffle,MMLU-Pro,mmlu-pro,total,62.33
+Qwen3-14B,Base,HarmBench,harmbench,contextual,45.92
+Qwen3-14B,Base,HarmBench,harmbench,standard,93.0
+Qwen3-14B,DPO,HarmBench,harmbench,contextual,26.53
+Qwen3-14B,DPO,HarmBench,harmbench,standard,85.5
+Qwen3-14B,ReSo,HarmBench,harmbench,contextual,64.0
+Qwen3-14B,ReSo,HarmBench,harmbench,standard,98.0
+Qwen3-14B,ReSo-shuffle,HarmBench,harmbench,contextual,54.08
+Qwen3-14B,ReSo-shuffle,HarmBench,harmbench,standard,95.5
+Qwen3-14B,Base,DeceptionBench,deceptionbench,economy,65.83
+Qwen3-14B,Base,DeceptionBench,deceptionbench,education,70.28
+Qwen3-14B,Base,DeceptionBench,deceptionbench,entertainment,39.44
+Qwen3-14B,Base,DeceptionBench,deceptionbench,healthcare,56.39
+Qwen3-14B,Base,DeceptionBench,deceptionbench,social,49.16
+Qwen3-14B,DPO,DeceptionBench,deceptionbench,economy,48.88
+Qwen3-14B,DPO,DeceptionBench,deceptionbench,education,57.78
+Qwen3-14B,DPO,DeceptionBench,deceptionbench,entertainment,23.33
+Qwen3-14B,DPO,DeceptionBench,deceptionbench,healthcare,50.55
+Qwen3-14B,DPO,DeceptionBench,deceptionbench,social,30.0
+Qwen3-14B,ReSo,DeceptionBench,deceptionbench,economy,71.95
+Qwen3-14B,ReSo,DeceptionBench,deceptionbench,education,73.61
+Qwen3-14B,ReSo,DeceptionBench,deceptionbench,entertainment,60.56
+Qwen3-14B,ReSo,DeceptionBench,deceptionbench,healthcare,78.89
+Qwen3-14B,ReSo,DeceptionBench,deceptionbench,social,62.22
+Qwen3-14B,ReSo-shuffle,DeceptionBench,deceptionbench,economy,70.28
+Qwen3-14B,ReSo-shuffle,DeceptionBench,deceptionbench,education,78.89
+Qwen3-14B,ReSo-shuffle,DeceptionBench,deceptionbench,entertainment,54.72
+Qwen3-14B,ReSo-shuffle,DeceptionBench,deceptionbench,healthcare,70.84
+Qwen3-14B,ReSo-shuffle,DeceptionBench,deceptionbench,social,65.0
+Qwen3-14B,Base,OpenRT,openrt,actorattack,82.08
+Qwen3-14B,Base,OpenRT,openrt,artprompt,87.92
+Qwen3-14B,Base,OpenRT,openrt,autodan,77.08
+Qwen3-14B,Base,OpenRT,openrt,autodan_r,64.0
+Qwen3-14B,Base,OpenRT,openrt,cipherchat,92.5
+Qwen3-14B,Base,OpenRT,openrt,coa,97.08
+Qwen3-14B,Base,OpenRT,openrt,codeattack,68.33
+Qwen3-14B,Base,OpenRT,openrt,crescendo,67.5
+Qwen3-14B,Base,OpenRT,openrt,deepinception,90.83
+Qwen3-14B,Base,OpenRT,openrt,drattack,45.39
+Qwen3-14B,Base,OpenRT,openrt,flipattack,93.75
+Qwen3-14B,Base,OpenRT,openrt,gcg,96.67
+Qwen3-14B,Base,OpenRT,openrt,gptfuzzer,70.42
+Qwen3-14B,Base,OpenRT,openrt,ica,98.33
+Qwen3-14B,Base,OpenRT,openrt,jailbroken,90.83
+Qwen3-14B,Base,OpenRT,openrt,laa,20.0
+Qwen3-14B,Base,OpenRT,openrt,mousetrap,94.17
+Qwen3-14B,Base,OpenRT,openrt,multilingual,98.75
+Qwen3-14B,Base,OpenRT,openrt,pair,75.42
+Qwen3-14B,Base,OpenRT,openrt,pasttense,85.83
+Qwen3-14B,Base,OpenRT,openrt,prefill,95.42
+Qwen3-14B,Base,OpenRT,openrt,race,90.42
+Qwen3-14B,Base,OpenRT,openrt,redqueen,96.67
+Qwen3-14B,Base,OpenRT,openrt,renellm,14.58
+Qwen3-14B,Base,OpenRT,openrt,seqar,44.17
+Qwen3-14B,Base,OpenRT,openrt,treeattack,73.33
+Qwen3-14B,Base,OpenRT,openrt,xteaming,50.0
+Qwen3-14B,DPO,OpenRT,openrt,actorattack,77.92
+Qwen3-14B,DPO,OpenRT,openrt,artprompt,81.25
+Qwen3-14B,DPO,OpenRT,openrt,autodan,70.0
+Qwen3-14B,DPO,OpenRT,openrt,autodan_r,55.24
+Qwen3-14B,DPO,OpenRT,openrt,cipherchat,86.25
+Qwen3-14B,DPO,OpenRT,openrt,coa,96.25
+Qwen3-14B,DPO,OpenRT,openrt,codeattack,62.5
+Qwen3-14B,DPO,OpenRT,openrt,crescendo,57.08
+Qwen3-14B,DPO,OpenRT,openrt,deepinception,88.33
+Qwen3-14B,DPO,OpenRT,openrt,drattack,37.09
+Qwen3-14B,DPO,OpenRT,openrt,flipattack,93.75
+Qwen3-14B,DPO,OpenRT,openrt,gcg,88.75
+Qwen3-14B,DPO,OpenRT,openrt,gptfuzzer,63.75
+Qwen3-14B,DPO,OpenRT,openrt,ica,96.67
+Qwen3-14B,DPO,OpenRT,openrt,jailbroken,83.33
+Qwen3-14B,DPO,OpenRT,openrt,laa,18.33
+Qwen3-14B,DPO,OpenRT,openrt,mousetrap,92.92
+Qwen3-14B,DPO,OpenRT,openrt,multilingual,99.17
+Qwen3-14B,DPO,OpenRT,openrt,pair,70.0
+Qwen3-14B,DPO,OpenRT,openrt,pasttense,73.75
+Qwen3-14B,DPO,OpenRT,openrt,prefill,92.5
+Qwen3-14B,DPO,OpenRT,openrt,race,87.5
+Qwen3-14B,DPO,OpenRT,openrt,redqueen,96.67
+Qwen3-14B,DPO,OpenRT,openrt,renellm,16.25
+Qwen3-14B,DPO,OpenRT,openrt,seqar,38.33
+Qwen3-14B,DPO,OpenRT,openrt,treeattack,71.67
+Qwen3-14B,DPO,OpenRT,openrt,xteaming,44.58
+Qwen3-14B,ReSo,OpenRT,openrt,actorattack,83.75
+Qwen3-14B,ReSo,OpenRT,openrt,artprompt,92.08
+Qwen3-14B,ReSo,OpenRT,openrt,autodan,83.75
+Qwen3-14B,ReSo,OpenRT,openrt,autodan_r,68.97
+Qwen3-14B,ReSo,OpenRT,openrt,cipherchat,91.67
+Qwen3-14B,ReSo,OpenRT,openrt,coa,95.0
+Qwen3-14B,ReSo,OpenRT,openrt,codeattack,71.67
+Qwen3-14B,ReSo,OpenRT,openrt,crescendo,75.0
+Qwen3-14B,ReSo,OpenRT,openrt,deepinception,93.33
+Qwen3-14B,ReSo,OpenRT,openrt,drattack,52.98
+Qwen3-14B,ReSo,OpenRT,openrt,flipattack,90.42
+Qwen3-14B,ReSo,OpenRT,openrt,gcg,97.5
+Qwen3-14B,ReSo,OpenRT,openrt,gptfuzzer,79.58
+Qwen3-14B,ReSo,OpenRT,openrt,ica,100.0
+Qwen3-14B,ReSo,OpenRT,openrt,jailbroken,95.42
+Qwen3-14B,ReSo,OpenRT,openrt,laa,43.33
+Qwen3-14B,ReSo,OpenRT,openrt,mousetrap,93.33
+Qwen3-14B,ReSo,OpenRT,openrt,multilingual,100.0
+Qwen3-14B,ReSo,OpenRT,openrt,pair,78.33
+Qwen3-14B,ReSo,OpenRT,openrt,pasttense,90.42
+Qwen3-14B,ReSo,OpenRT,openrt,prefill,97.92
+Qwen3-14B,ReSo,OpenRT,openrt,race,90.83
+Qwen3-14B,ReSo,OpenRT,openrt,redqueen,97.92
+Qwen3-14B,ReSo,OpenRT,openrt,renellm,16.25
+Qwen3-14B,ReSo,OpenRT,openrt,seqar,51.25
+Qwen3-14B,ReSo,OpenRT,openrt,treeattack,79.58
+Qwen3-14B,ReSo,OpenRT,openrt,xteaming,52.92
+Qwen3-14B,ReSo-shuffle,OpenRT,openrt,actorattack,85.0
+Qwen3-14B,ReSo-shuffle,OpenRT,openrt,artprompt,87.08
+Qwen3-14B,ReSo-shuffle,OpenRT,openrt,autodan,81.25
+Qwen3-14B,ReSo-shuffle,OpenRT,openrt,autodan_r,69.54
+Qwen3-14B,ReSo-shuffle,OpenRT,openrt,cipherchat,92.92
+Qwen3-14B,ReSo-shuffle,OpenRT,openrt,coa,95.0
+Qwen3-14B,ReSo-shuffle,OpenRT,openrt,codeattack,68.75
+Qwen3-14B,ReSo-shuffle,OpenRT,openrt,crescendo,67.5
+Qwen3-14B,ReSo-shuffle,OpenRT,openrt,deepinception,94.17
+Qwen3-14B,ReSo-shuffle,OpenRT,openrt,drattack,50.33
+Qwen3-14B,ReSo-shuffle,OpenRT,openrt,flipattack,92.92
+Qwen3-14B,ReSo-shuffle,OpenRT,openrt,gcg,97.08
+Qwen3-14B,ReSo-shuffle,OpenRT,openrt,gptfuzzer,75.42
+Qwen3-14B,ReSo-shuffle,OpenRT,openrt,ica,98.75
+Qwen3-14B,ReSo-shuffle,OpenRT,openrt,jailbroken,92.92
+Qwen3-14B,ReSo-shuffle,OpenRT,openrt,laa,20.0
+Qwen3-14B,ReSo-shuffle,OpenRT,openrt,mousetrap,92.5
+Qwen3-14B,ReSo-shuffle,OpenRT,openrt,multilingual,98.33
+Qwen3-14B,ReSo-shuffle,OpenRT,openrt,pair,75.83
+Qwen3-14B,ReSo-shuffle,OpenRT,openrt,pasttense,87.5
+Qwen3-14B,ReSo-shuffle,OpenRT,openrt,prefill,97.5
+Qwen3-14B,ReSo-shuffle,OpenRT,openrt,race,92.5
+Qwen3-14B,ReSo-shuffle,OpenRT,openrt,redqueen,98.75
+Qwen3-14B,ReSo-shuffle,OpenRT,openrt,renellm,18.33
+Qwen3-14B,ReSo-shuffle,OpenRT,openrt,seqar,45.42
+Qwen3-14B,ReSo-shuffle,OpenRT,openrt,treeattack,79.58
+Qwen3-14B,ReSo-shuffle,OpenRT,openrt,xteaming,46.25
+Qwen3-14B,Base,XSTest,xstest,safe compliance,95.6
+Qwen3-14B,Base,XSTest,xstest,unsafe refusal,78.5
+Qwen3-14B,DPO,XSTest,xstest,safe compliance,96.0
+Qwen3-14B,DPO,XSTest,xstest,unsafe refusal,80.0
+Qwen3-14B,ReSo,XSTest,xstest,safe compliance,81.2
+Qwen3-14B,ReSo,XSTest,xstest,unsafe refusal,85.43
+Qwen3-14B,ReSo-shuffle,XSTest,xstest,safe compliance,92.8
+Qwen3-14B,ReSo-shuffle,XSTest,xstest,unsafe refusal,77.5
+Qwen3-14B,Base,ETHICS,ethics,dil,28.83
+Qwen3-14B,Base,ETHICS,ethics,mfq,83.07
+Qwen3-14B,Base,ETHICS,ethics,wvs,85.81
+Qwen3-14B,DPO,ETHICS,ethics,dil,28.75
+Qwen3-14B,DPO,ETHICS,ethics,mfq,85.6
+Qwen3-14B,DPO,ETHICS,ethics,wvs,87.71
+Qwen3-14B,ReSo,ETHICS,ethics,dil,28.42
+Qwen3-14B,ReSo,ETHICS,ethics,mfq,82.4
+Qwen3-14B,ReSo,ETHICS,ethics,wvs,91.52
+Qwen3-14B,ReSo-shuffle,ETHICS,ethics,dil,29.24
+Qwen3-14B,ReSo-shuffle,ETHICS,ethics,mfq,80.13
+Qwen3-14B,ReSo-shuffle,ETHICS,ethics,wvs,85.81
+Qwen3-14B,Base,FLAMES,flames,Data protection,48.44
+Qwen3-14B,Base,FLAMES,flames,Fairness,75.1
+Qwen3-14B,Base,FLAMES,flames,Legality,60.87
+Qwen3-14B,Base,FLAMES,flames,Morality,76.62
+Qwen3-14B,Base,FLAMES,flames,Safety,58.35
+Qwen3-14B,DPO,FLAMES,flames,Data protection,42.22
+Qwen3-14B,DPO,FLAMES,flames,Fairness,74.03
+Qwen3-14B,DPO,FLAMES,flames,Legality,52.17
+Qwen3-14B,DPO,FLAMES,flames,Morality,75.95
+Qwen3-14B,DPO,FLAMES,flames,Safety,57.81
+Qwen3-14B,ReSo,FLAMES,flames,Data protection,55.56
+Qwen3-14B,ReSo,FLAMES,flames,Fairness,79.79
+Qwen3-14B,ReSo,FLAMES,flames,Legality,63.77
+Qwen3-14B,ReSo,FLAMES,flames,Morality,76.95
+Qwen3-14B,ReSo,FLAMES,flames,Safety,60.45
+Qwen3-14B,ReSo-shuffle,FLAMES,flames,Data protection,54.67
+Qwen3-14B,ReSo-shuffle,FLAMES,flames,Fairness,77.91
+Qwen3-14B,ReSo-shuffle,FLAMES,flames,Legality,62.32
+Qwen3-14B,ReSo-shuffle,FLAMES,flames,Morality,77.28
+Qwen3-14B,ReSo-shuffle,FLAMES,flames,Safety,59.75
+Qwen3-14B,Base,MoReBench,morebench,ai_advisor,63.9
+Qwen3-14B,Base,MoReBench,morebench,ai_agent,64.1
+Qwen3-14B,Base,MoReBench,morebench,ai_risk,64.3
+Qwen3-14B,Base,MoReBench,morebench,clear process,64.3
+Qwen3-14B,Base,MoReBench,morebench,daily_dilemmas,62.6
+Qwen3-14B,Base,MoReBench,morebench,expert_written,66.1
+Qwen3-14B,Base,MoReBench,morebench,harmless outcome,86.4
+Qwen3-14B,Base,MoReBench,morebench,helpful outcome,44.1
+Qwen3-14B,Base,MoReBench,morebench,identifying,64.7
+Qwen3-14B,Base,MoReBench,morebench,logical process,59.5
+Qwen3-14B,DPO,MoReBench,morebench,ai_advisor,65.2
+Qwen3-14B,DPO,MoReBench,morebench,ai_agent,64.5
+Qwen3-14B,DPO,MoReBench,morebench,ai_risk,64.6
+Qwen3-14B,DPO,MoReBench,morebench,clear process,68.5
+Qwen3-14B,DPO,MoReBench,morebench,daily_dilemmas,64.5
+Qwen3-14B,DPO,MoReBench,morebench,expert_written,66.5
+Qwen3-14B,DPO,MoReBench,morebench,harmless outcome,86.2
+Qwen3-14B,DPO,MoReBench,morebench,helpful outcome,46.6
+Qwen3-14B,DPO,MoReBench,morebench,identifying,64.9
+Qwen3-14B,DPO,MoReBench,morebench,logical process,58.8
+Qwen3-14B,ReSo,MoReBench,morebench,ai_advisor,63.5
+Qwen3-14B,ReSo,MoReBench,morebench,ai_agent,63.9
+Qwen3-14B,ReSo,MoReBench,morebench,ai_risk,64.2
+Qwen3-14B,ReSo,MoReBench,morebench,clear process,65.4
+Qwen3-14B,ReSo,MoReBench,morebench,daily_dilemmas,63.0
+Qwen3-14B,ReSo,MoReBench,morebench,expert_written,63.8
+Qwen3-14B,ReSo,MoReBench,morebench,harmless outcome,87.4
+Qwen3-14B,ReSo,MoReBench,morebench,helpful outcome,44.7
+Qwen3-14B,ReSo,MoReBench,morebench,identifying,64.7
+Qwen3-14B,ReSo,MoReBench,morebench,logical process,57.0
+Qwen3-14B,ReSo-shuffle,MoReBench,morebench,ai_advisor,63.0
+Qwen3-14B,ReSo-shuffle,MoReBench,morebench,ai_agent,65.3
+Qwen3-14B,ReSo-shuffle,MoReBench,morebench,ai_risk,65.6
+Qwen3-14B,ReSo-shuffle,MoReBench,morebench,clear process,65.5
+Qwen3-14B,ReSo-shuffle,MoReBench,morebench,daily_dilemmas,62.0
+Qwen3-14B,ReSo-shuffle,MoReBench,morebench,expert_written,64.6
+Qwen3-14B,ReSo-shuffle,MoReBench,morebench,harmless outcome,87.4
+Qwen3-14B,ReSo-shuffle,MoReBench,morebench,helpful outcome,43.8
+Qwen3-14B,ReSo-shuffle,MoReBench,morebench,identifying,64.8
+Qwen3-14B,ReSo-shuffle,MoReBench,morebench,logical process,58.1
+Qwen3-14B,Base,HaluEval,halueval,dialogue,74.11
+Qwen3-14B,Base,HaluEval,halueval,qa,64.32
+Qwen3-14B,Base,HaluEval,halueval,summarization,71.47
+Qwen3-14B,DPO,HaluEval,halueval,dialogue,74.38
+Qwen3-14B,DPO,HaluEval,halueval,qa,62.99
+Qwen3-14B,DPO,HaluEval,halueval,summarization,71.27
+Qwen3-14B,ReSo,HaluEval,halueval,dialogue,73.8
+Qwen3-14B,ReSo,HaluEval,halueval,qa,63.09
+Qwen3-14B,ReSo,HaluEval,halueval,summarization,70.92
+Qwen3-14B,ReSo-shuffle,HaluEval,halueval,dialogue,73.91
+Qwen3-14B,ReSo-shuffle,HaluEval,halueval,qa,63.31
+Qwen3-14B,ReSo-shuffle,HaluEval,halueval,summarization,71.06
+Qwen3-14B,Base,MMLU-Pro,mmlu-pro,biology,84.1
+Qwen3-14B,Base,MMLU-Pro,mmlu-pro,business,72.75
+Qwen3-14B,Base,MMLU-Pro,mmlu-pro,chemistry,70.41
+Qwen3-14B,Base,MMLU-Pro,mmlu-pro,computer science,72.2
+Qwen3-14B,Base,MMLU-Pro,mmlu-pro,economics,76.07
+Qwen3-14B,Base,MMLU-Pro,mmlu-pro,engineering,54.28
+Qwen3-14B,Base,MMLU-Pro,mmlu-pro,health,66.5
+Qwen3-14B,Base,MMLU-Pro,mmlu-pro,history,57.74
+Qwen3-14B,Base,MMLU-Pro,mmlu-pro,law,35.97
+Qwen3-14B,Base,MMLU-Pro,mmlu-pro,math,82.24
+Qwen3-14B,Base,MMLU-Pro,mmlu-pro,other,61.9
+Qwen3-14B,Base,MMLU-Pro,mmlu-pro,philosophy,60.12
+Qwen3-14B,Base,MMLU-Pro,mmlu-pro,physics,71.75
+Qwen3-14B,Base,MMLU-Pro,mmlu-pro,psychology,72.68
+Qwen3-14B,Base,MMLU-Pro,mmlu-pro,total,67.26
+Qwen3-14B,DPO,MMLU-Pro,mmlu-pro,biology,84.24
+Qwen3-14B,DPO,MMLU-Pro,mmlu-pro,business,73.0
+Qwen3-14B,DPO,MMLU-Pro,mmlu-pro,chemistry,69.61
+Qwen3-14B,DPO,MMLU-Pro,mmlu-pro,computer science,72.44
+Qwen3-14B,DPO,MMLU-Pro,mmlu-pro,economics,76.78
+Qwen3-14B,DPO,MMLU-Pro,mmlu-pro,engineering,54.8
+Qwen3-14B,DPO,MMLU-Pro,mmlu-pro,health,66.99
+Qwen3-14B,DPO,MMLU-Pro,mmlu-pro,history,57.48
+Qwen3-14B,DPO,MMLU-Pro,mmlu-pro,law,36.51
+Qwen3-14B,DPO,MMLU-Pro,mmlu-pro,math,81.5
+Qwen3-14B,DPO,MMLU-Pro,mmlu-pro,other,61.69
+Qwen3-14B,DPO,MMLU-Pro,mmlu-pro,philosophy,60.32
+Qwen3-14B,DPO,MMLU-Pro,mmlu-pro,physics,72.21
+Qwen3-14B,DPO,MMLU-Pro,mmlu-pro,psychology,72.06
+Qwen3-14B,DPO,MMLU-Pro,mmlu-pro,total,67.3
+Qwen3-14B,ReSo,MMLU-Pro,mmlu-pro,biology,83.4
+Qwen3-14B,ReSo,MMLU-Pro,mmlu-pro,business,72.12
+Qwen3-14B,ReSo,MMLU-Pro,mmlu-pro,chemistry,69.79
+Qwen3-14B,ReSo,MMLU-Pro,mmlu-pro,computer science,72.68
+Qwen3-14B,ReSo,MMLU-Pro,mmlu-pro,economics,75.83
+Qwen3-14B,ReSo,MMLU-Pro,mmlu-pro,engineering,54.9
+Qwen3-14B,ReSo,MMLU-Pro,mmlu-pro,health,66.01
+Qwen3-14B,ReSo,MMLU-Pro,mmlu-pro,history,56.96
+Qwen3-14B,ReSo,MMLU-Pro,mmlu-pro,law,37.6
+Qwen3-14B,ReSo,MMLU-Pro,mmlu-pro,math,81.27
+Qwen3-14B,ReSo,MMLU-Pro,mmlu-pro,other,62.45
+Qwen3-14B,ReSo,MMLU-Pro,mmlu-pro,philosophy,58.12
+Qwen3-14B,ReSo,MMLU-Pro,mmlu-pro,physics,71.75
+Qwen3-14B,ReSo,MMLU-Pro,mmlu-pro,psychology,71.55
+Qwen3-14B,ReSo,MMLU-Pro,mmlu-pro,total,67.04
+Qwen3-14B,ReSo-shuffle,MMLU-Pro,mmlu-pro,biology,83.12
+Qwen3-14B,ReSo-shuffle,MMLU-Pro,mmlu-pro,business,71.36
+Qwen3-14B,ReSo-shuffle,MMLU-Pro,mmlu-pro,chemistry,70.14
+Qwen3-14B,ReSo-shuffle,MMLU-Pro,mmlu-pro,computer science,72.2
+Qwen3-14B,ReSo-shuffle,MMLU-Pro,mmlu-pro,economics,77.01
+Qwen3-14B,ReSo-shuffle,MMLU-Pro,mmlu-pro,engineering,53.56
+Qwen3-14B,ReSo-shuffle,MMLU-Pro,mmlu-pro,health,65.4
+Qwen3-14B,ReSo-shuffle,MMLU-Pro,mmlu-pro,history,60.1
+Qwen3-14B,ReSo-shuffle,MMLU-Pro,mmlu-pro,law,36.78
+Qwen3-14B,ReSo-shuffle,MMLU-Pro,mmlu-pro,math,81.64
+Qwen3-14B,ReSo-shuffle,MMLU-Pro,mmlu-pro,other,61.58
+Qwen3-14B,ReSo-shuffle,MMLU-Pro,mmlu-pro,philosophy,59.32
+Qwen3-14B,ReSo-shuffle,MMLU-Pro,mmlu-pro,physics,70.21
+Qwen3-14B,ReSo-shuffle,MMLU-Pro,mmlu-pro,psychology,72.93
+Qwen3-14B,ReSo-shuffle,MMLU-Pro,mmlu-pro,total,66.9
+Qwen3-32B,Base,HarmBench,harmbench,contextual,57.0
+Qwen3-32B,Base,HarmBench,harmbench,standard,93.0
+Qwen3-32B,DPO,HarmBench,harmbench,contextual,51.0
+Qwen3-32B,DPO,HarmBench,harmbench,standard,92.5
+Qwen3-32B,ReSo,HarmBench,harmbench,contextual,66.0
+Qwen3-32B,ReSo,HarmBench,harmbench,standard,96.5
+Qwen3-32B,ReSo-shuffle,HarmBench,harmbench,contextual,60.0
+Qwen3-32B,ReSo-shuffle,HarmBench,harmbench,standard,94.0
+Qwen3-32B,Base,DeceptionBench,deceptionbench,economy,68.33
+Qwen3-32B,Base,DeceptionBench,deceptionbench,education,76.67
+Qwen3-32B,Base,DeceptionBench,deceptionbench,entertainment,44.72
+Qwen3-32B,Base,DeceptionBench,deceptionbench,healthcare,57.77
+Qwen3-32B,Base,DeceptionBench,deceptionbench,social,60.0
+Qwen3-32B,DPO,DeceptionBench,deceptionbench,economy,57.77
+Qwen3-32B,DPO,DeceptionBench,deceptionbench,education,72.22
+Qwen3-32B,DPO,DeceptionBench,deceptionbench,entertainment,33.61
+Qwen3-32B,DPO,DeceptionBench,deceptionbench,healthcare,48.89
+Qwen3-32B,DPO,DeceptionBench,deceptionbench,social,46.11
+Qwen3-32B,ReSo,DeceptionBench,deceptionbench,economy,81.95
+Qwen3-32B,ReSo,DeceptionBench,deceptionbench,education,80.27
+Qwen3-32B,ReSo,DeceptionBench,deceptionbench,entertainment,68.61
+Qwen3-32B,ReSo,DeceptionBench,deceptionbench,healthcare,68.88
+Qwen3-32B,ReSo,DeceptionBench,deceptionbench,social,68.33
+Qwen3-32B,ReSo-shuffle,DeceptionBench,deceptionbench,economy,72.22
+Qwen3-32B,ReSo-shuffle,DeceptionBench,deceptionbench,education,76.67
+Qwen3-32B,ReSo-shuffle,DeceptionBench,deceptionbench,entertainment,51.39
+Qwen3-32B,ReSo-shuffle,DeceptionBench,deceptionbench,healthcare,57.78
+Qwen3-32B,ReSo-shuffle,DeceptionBench,deceptionbench,social,62.22
+Qwen3-32B,Base,OpenRT,openrt,actorattack,83.75
+Qwen3-32B,Base,OpenRT,openrt,artprompt,74.58
+Qwen3-32B,Base,OpenRT,openrt,autodan,75.83
+Qwen3-32B,Base,OpenRT,openrt,autodan_r,71.54
+Qwen3-32B,Base,OpenRT,openrt,cipherchat,90.0
+Qwen3-32B,Base,OpenRT,openrt,coa,99.17
+Qwen3-32B,Base,OpenRT,openrt,codeattack,65.83
+Qwen3-32B,Base,OpenRT,openrt,crescendo,65.83
+Qwen3-32B,Base,OpenRT,openrt,deepinception,94.17
+Qwen3-32B,Base,OpenRT,openrt,drattack,43.62
+Qwen3-32B,Base,OpenRT,openrt,flipattack,72.92
+Qwen3-32B,Base,OpenRT,openrt,gcg,95.83
+Qwen3-32B,Base,OpenRT,openrt,gptfuzzer,79.58
+Qwen3-32B,Base,OpenRT,openrt,ica,100.0
+Qwen3-32B,Base,OpenRT,openrt,jailbroken,82.92
+Qwen3-32B,Base,OpenRT,openrt,laa,18.75
+Qwen3-32B,Base,OpenRT,openrt,mousetrap,90.83
+Qwen3-32B,Base,OpenRT,openrt,multilingual,100.0
+Qwen3-32B,Base,OpenRT,openrt,pair,74.58
+Qwen3-32B,Base,OpenRT,openrt,pasttense,85.42
+Qwen3-32B,Base,OpenRT,openrt,prefill,96.25
+Qwen3-32B,Base,OpenRT,openrt,race,88.33
+Qwen3-32B,Base,OpenRT,openrt,redqueen,100.0
+Qwen3-32B,Base,OpenRT,openrt,renellm,20.42
+Qwen3-32B,Base,OpenRT,openrt,seqar,33.33
+Qwen3-32B,Base,OpenRT,openrt,treeattack,72.5
+Qwen3-32B,Base,OpenRT,openrt,xteaming,48.33
+Qwen3-32B,DPO,OpenRT,openrt,actorattack,83.75
+Qwen3-32B,DPO,OpenRT,openrt,artprompt,72.08
+Qwen3-32B,DPO,OpenRT,openrt,autodan,71.25
+Qwen3-32B,DPO,OpenRT,openrt,autodan_r,68.09
+Qwen3-32B,DPO,OpenRT,openrt,cipherchat,87.92
+Qwen3-32B,DPO,OpenRT,openrt,coa,98.33
+Qwen3-32B,DPO,OpenRT,openrt,codeattack,62.92
+Qwen3-32B,DPO,OpenRT,openrt,crescendo,63.33
+Qwen3-32B,DPO,OpenRT,openrt,deepinception,91.67
+Qwen3-32B,DPO,OpenRT,openrt,drattack,40.4
+Qwen3-32B,DPO,OpenRT,openrt,flipattack,68.75
+Qwen3-32B,DPO,OpenRT,openrt,gcg,95.0
+Qwen3-32B,DPO,OpenRT,openrt,gptfuzzer,76.25
+Qwen3-32B,DPO,OpenRT,openrt,ica,98.75
+Qwen3-32B,DPO,OpenRT,openrt,jailbroken,82.92
+Qwen3-32B,DPO,OpenRT,openrt,laa,15.83
+Qwen3-32B,DPO,OpenRT,openrt,mousetrap,92.5
+Qwen3-32B,DPO,OpenRT,openrt,multilingual,98.75
+Qwen3-32B,DPO,OpenRT,openrt,pair,73.75
+Qwen3-32B,DPO,OpenRT,openrt,pasttense,80.0
+Qwen3-32B,DPO,OpenRT,openrt,prefill,95.0
+Qwen3-32B,DPO,OpenRT,openrt,race,91.25
+Qwen3-32B,DPO,OpenRT,openrt,redqueen,95.0
+Qwen3-32B,DPO,OpenRT,openrt,renellm,18.33
+Qwen3-32B,DPO,OpenRT,openrt,seqar,27.5
+Qwen3-32B,DPO,OpenRT,openrt,treeattack,68.33
+Qwen3-32B,DPO,OpenRT,openrt,xteaming,49.17
+Qwen3-32B,ReSo,OpenRT,openrt,actorattack,87.5
+Qwen3-32B,ReSo,OpenRT,openrt,artprompt,79.58
+Qwen3-32B,ReSo,OpenRT,openrt,autodan,72.08
+Qwen3-32B,ReSo,OpenRT,openrt,autodan_r,71.14
+Qwen3-32B,ReSo,OpenRT,openrt,cipherchat,90.42
+Qwen3-32B,ReSo,OpenRT,openrt,coa,99.17
+Qwen3-32B,ReSo,OpenRT,openrt,codeattack,76.25
+Qwen3-32B,ReSo,OpenRT,openrt,crescendo,66.25
+Qwen3-32B,ReSo,OpenRT,openrt,deepinception,96.67
+Qwen3-32B,ReSo,OpenRT,openrt,drattack,52.67
+Qwen3-32B,ReSo,OpenRT,openrt,flipattack,77.08
+Qwen3-32B,ReSo,OpenRT,openrt,gcg,97.92
+Qwen3-32B,ReSo,OpenRT,openrt,gptfuzzer,87.08
+Qwen3-32B,ReSo,OpenRT,openrt,ica,100.0
+Qwen3-32B,ReSo,OpenRT,openrt,jailbroken,89.58
+Qwen3-32B,ReSo,OpenRT,openrt,laa,30.83
+Qwen3-32B,ReSo,OpenRT,openrt,mousetrap,89.17
+Qwen3-32B,ReSo,OpenRT,openrt,multilingual,100.0
+Qwen3-32B,ReSo,OpenRT,openrt,pair,77.08
+Qwen3-32B,ReSo,OpenRT,openrt,pasttense,89.58
+Qwen3-32B,ReSo,OpenRT,openrt,prefill,97.5
+Qwen3-32B,ReSo,OpenRT,openrt,race,92.08
+Qwen3-32B,ReSo,OpenRT,openrt,redqueen,99.17
+Qwen3-32B,ReSo,OpenRT,openrt,renellm,15.83
+Qwen3-32B,ReSo,OpenRT,openrt,seqar,47.5
+Qwen3-32B,ReSo,OpenRT,openrt,treeattack,78.75
+Qwen3-32B,ReSo,OpenRT,openrt,xteaming,52.08
+Qwen3-32B,ReSo-shuffle,OpenRT,openrt,actorattack,85.0
+Qwen3-32B,ReSo-shuffle,OpenRT,openrt,artprompt,78.33
+Qwen3-32B,ReSo-shuffle,OpenRT,openrt,autodan,76.67
+Qwen3-32B,ReSo-shuffle,OpenRT,openrt,autodan_r,70.95
+Qwen3-32B,ReSo-shuffle,OpenRT,openrt,cipherchat,88.33
+Qwen3-32B,ReSo-shuffle,OpenRT,openrt,coa,98.75
+Qwen3-32B,ReSo-shuffle,OpenRT,openrt,codeattack,65.42
+Qwen3-32B,ReSo-shuffle,OpenRT,openrt,crescendo,62.92
+Qwen3-32B,ReSo-shuffle,OpenRT,openrt,deepinception,92.92
+Qwen3-32B,ReSo-shuffle,OpenRT,openrt,drattack,41.72
+Qwen3-32B,ReSo-shuffle,OpenRT,openrt,flipattack,75.83
+Qwen3-32B,ReSo-shuffle,OpenRT,openrt,gcg,95.83
+Qwen3-32B,ReSo-shuffle,OpenRT,openrt,gptfuzzer,78.33
+Qwen3-32B,ReSo-shuffle,OpenRT,openrt,ica,100.0
+Qwen3-32B,ReSo-shuffle,OpenRT,openrt,jailbroken,86.25
+Qwen3-32B,ReSo-shuffle,OpenRT,openrt,laa,20.0
+Qwen3-32B,ReSo-shuffle,OpenRT,openrt,mousetrap,89.17
+Qwen3-32B,ReSo-shuffle,OpenRT,openrt,multilingual,100.0
+Qwen3-32B,ReSo-shuffle,OpenRT,openrt,pair,75.42
+Qwen3-32B,ReSo-shuffle,OpenRT,openrt,pasttense,82.08
+Qwen3-32B,ReSo-shuffle,OpenRT,openrt,prefill,97.5
+Qwen3-32B,ReSo-shuffle,OpenRT,openrt,race,90.0
+Qwen3-32B,ReSo-shuffle,OpenRT,openrt,redqueen,99.58
+Qwen3-32B,ReSo-shuffle,OpenRT,openrt,renellm,16.67
+Qwen3-32B,ReSo-shuffle,OpenRT,openrt,seqar,32.92
+Qwen3-32B,ReSo-shuffle,OpenRT,openrt,treeattack,70.83
+Qwen3-32B,ReSo-shuffle,OpenRT,openrt,xteaming,48.33
+Qwen3-32B,Base,XSTest,xstest,safe compliance,96.0
+Qwen3-32B,Base,XSTest,xstest,unsafe refusal,77.5
+Qwen3-32B,DPO,XSTest,xstest,safe compliance,96.4
+Qwen3-32B,DPO,XSTest,xstest,unsafe refusal,80.0
+Qwen3-32B,ReSo,XSTest,xstest,safe compliance,89.2
+Qwen3-32B,ReSo,XSTest,xstest,unsafe refusal,83.5
+Qwen3-32B,ReSo-shuffle,XSTest,xstest,safe compliance,96.0
+Qwen3-32B,ReSo-shuffle,XSTest,xstest,unsafe refusal,78.5
+Qwen3-32B,Base,ETHICS,ethics,dil,30.08
+Qwen3-32B,Base,ETHICS,ethics,mfq,87.2
+Qwen3-32B,Base,ETHICS,ethics,wvs,83.22
+Qwen3-32B,DPO,ETHICS,ethics,dil,29.6
+Qwen3-32B,DPO,ETHICS,ethics,mfq,88.0
+Qwen3-32B,DPO,ETHICS,ethics,wvs,87.67
+Qwen3-32B,ReSo,ETHICS,ethics,dil,30.01
+Qwen3-32B,ReSo,ETHICS,ethics,mfq,88.27
+Qwen3-32B,ReSo,ETHICS,ethics,wvs,89.81
+Qwen3-32B,ReSo-shuffle,ETHICS,ethics,dil,29.2
+Qwen3-32B,ReSo-shuffle,ETHICS,ethics,mfq,87.2
+Qwen3-32B,ReSo-shuffle,ETHICS,ethics,wvs,86.95
+Qwen3-32B,Base,FLAMES,flames,Data protection,52.0
+Qwen3-32B,Base,FLAMES,flames,Fairness,76.31
+Qwen3-32B,Base,FLAMES,flames,Legality,57.97
+Qwen3-32B,Base,FLAMES,flames,Morality,76.95
+Qwen3-32B,Base,FLAMES,flames,Safety,58.43
+Qwen3-32B,DPO,FLAMES,flames,Data protection,49.33
+Qwen3-32B,DPO,FLAMES,flames,Fairness,73.9
+Qwen3-32B,DPO,FLAMES,flames,Legality,55.07
+Qwen3-32B,DPO,FLAMES,flames,Morality,76.29
+Qwen3-32B,DPO,FLAMES,flames,Safety,57.34
+Qwen3-32B,ReSo,FLAMES,flames,Data protection,51.11
+Qwen3-32B,ReSo,FLAMES,flames,Fairness,76.57
+Qwen3-32B,ReSo,FLAMES,flames,Legality,60.87
+Qwen3-32B,ReSo,FLAMES,flames,Morality,76.95
+Qwen3-32B,ReSo,FLAMES,flames,Safety,59.44
+Qwen3-32B,ReSo-shuffle,FLAMES,flames,Data protection,47.56
+Qwen3-32B,ReSo-shuffle,FLAMES,flames,Fairness,75.1
+Qwen3-32B,ReSo-shuffle,FLAMES,flames,Legality,59.42
+Qwen3-32B,ReSo-shuffle,FLAMES,flames,Morality,76.12
+Qwen3-32B,ReSo-shuffle,FLAMES,flames,Safety,59.36
+Qwen3-32B,Base,MoReBench,morebench,ai_advisor,65.5
+Qwen3-32B,Base,MoReBench,morebench,ai_agent,65.7
+Qwen3-32B,Base,MoReBench,morebench,ai_risk,65.9
+Qwen3-32B,Base,MoReBench,morebench,clear process,67.2
+Qwen3-32B,Base,MoReBench,morebench,daily_dilemmas,65.4
+Qwen3-32B,Base,MoReBench,morebench,expert_written,65.2
+Qwen3-32B,Base,MoReBench,morebench,harmless outcome,86.3
+Qwen3-32B,Base,MoReBench,morebench,helpful outcome,48.8
+Qwen3-32B,Base,MoReBench,morebench,identifying,64.8
+Qwen3-32B,Base,MoReBench,morebench,logical process,60.3
+Qwen3-32B,DPO,MoReBench,morebench,ai_advisor,67.5
+Qwen3-32B,DPO,MoReBench,morebench,ai_agent,68.5
+Qwen3-32B,DPO,MoReBench,morebench,ai_risk,68.7
+Qwen3-32B,DPO,MoReBench,morebench,clear process,70.8
+Qwen3-32B,DPO,MoReBench,morebench,daily_dilemmas,67.9
+Qwen3-32B,DPO,MoReBench,morebench,expert_written,66.3
+Qwen3-32B,DPO,MoReBench,morebench,harmless outcome,87.7
+Qwen3-32B,DPO,MoReBench,morebench,helpful outcome,53.4
+Qwen3-32B,DPO,MoReBench,morebench,identifying,67.2
+Qwen3-32B,DPO,MoReBench,morebench,logical process,61.1
+Qwen3-32B,ReSo,MoReBench,morebench,ai_advisor,65.8
+Qwen3-32B,ReSo,MoReBench,morebench,ai_agent,66.1
+Qwen3-32B,ReSo,MoReBench,morebench,ai_risk,66.6
+Qwen3-32B,ReSo,MoReBench,morebench,clear process,67.0
+Qwen3-32B,ReSo,MoReBench,morebench,daily_dilemmas,65.4
+Qwen3-32B,ReSo,MoReBench,morebench,expert_written,65.7
+Qwen3-32B,ReSo,MoReBench,morebench,harmless outcome,86.2
+Qwen3-32B,ReSo,MoReBench,morebench,helpful outcome,50.3
+Qwen3-32B,ReSo,MoReBench,morebench,identifying,66.1
+Qwen3-32B,ReSo,MoReBench,morebench,logical process,59.2
+Qwen3-32B,ReSo-shuffle,MoReBench,morebench,ai_advisor,65.7
+Qwen3-32B,ReSo-shuffle,MoReBench,morebench,ai_agent,65.5
+Qwen3-32B,ReSo-shuffle,MoReBench,morebench,ai_risk,65.6
+Qwen3-32B,ReSo-shuffle,MoReBench,morebench,clear process,66.5
+Qwen3-32B,ReSo-shuffle,MoReBench,morebench,daily_dilemmas,66.0
+Qwen3-32B,ReSo-shuffle,MoReBench,morebench,expert_written,64.9
+Qwen3-32B,ReSo-shuffle,MoReBench,morebench,harmless outcome,86.0
+Qwen3-32B,ReSo-shuffle,MoReBench,morebench,helpful outcome,48.7
+Qwen3-32B,ReSo-shuffle,MoReBench,morebench,identifying,65.4
+Qwen3-32B,ReSo-shuffle,MoReBench,morebench,logical process,60.6
+Qwen3-32B,Base,HaluEval,halueval,dialogue,73.2
+Qwen3-32B,Base,HaluEval,halueval,qa,65.72
+Qwen3-32B,Base,HaluEval,halueval,summarization,72.31
+Qwen3-32B,DPO,HaluEval,halueval,dialogue,73.47
+Qwen3-32B,DPO,HaluEval,halueval,qa,66.32
+Qwen3-32B,DPO,HaluEval,halueval,summarization,72.46
+Qwen3-32B,ReSo,HaluEval,halueval,dialogue,73.02
+Qwen3-32B,ReSo,HaluEval,halueval,qa,66.27
+Qwen3-32B,ReSo,HaluEval,halueval,summarization,72.62
+Qwen3-32B,ReSo-shuffle,HaluEval,halueval,dialogue,73.25
+Qwen3-32B,ReSo-shuffle,HaluEval,halueval,qa,66.52
+Qwen3-32B,ReSo-shuffle,HaluEval,halueval,summarization,72.0
+Qwen3-32B,Base,MMLU-Pro,mmlu-pro,biology,86.61
+Qwen3-32B,Base,MMLU-Pro,mmlu-pro,business,77.82
+Qwen3-32B,Base,MMLU-Pro,mmlu-pro,chemistry,74.29
+Qwen3-32B,Base,MMLU-Pro,mmlu-pro,computer science,75.85
+Qwen3-32B,Base,MMLU-Pro,mmlu-pro,economics,81.16
+Qwen3-32B,Base,MMLU-Pro,mmlu-pro,engineering,56.24
+Qwen3-32B,Base,MMLU-Pro,mmlu-pro,health,72.62
+Qwen3-32B,Base,MMLU-Pro,mmlu-pro,history,60.89
+Qwen3-32B,Base,MMLU-Pro,mmlu-pro,law,42.23
+Qwen3-32B,Base,MMLU-Pro,mmlu-pro,math,85.86
+Qwen3-32B,Base,MMLU-Pro,mmlu-pro,other,65.15
+Qwen3-32B,Base,MMLU-Pro,mmlu-pro,philosophy,64.13
+Qwen3-32B,Base,MMLU-Pro,mmlu-pro,physics,78.75
+Qwen3-32B,Base,MMLU-Pro,mmlu-pro,psychology,76.82
+Qwen3-32B,Base,MMLU-Pro,mmlu-pro,total,71.69
+Qwen3-32B,DPO,MMLU-Pro,mmlu-pro,biology,86.33
+Qwen3-32B,DPO,MMLU-Pro,mmlu-pro,business,76.43
+Qwen3-32B,DPO,MMLU-Pro,mmlu-pro,chemistry,71.91
+Qwen3-32B,DPO,MMLU-Pro,mmlu-pro,computer science,71.22
+Qwen3-32B,DPO,MMLU-Pro,mmlu-pro,economics,80.33
+Qwen3-32B,DPO,MMLU-Pro,mmlu-pro,engineering,56.04
+Qwen3-32B,DPO,MMLU-Pro,mmlu-pro,health,72.49
+Qwen3-32B,DPO,MMLU-Pro,mmlu-pro,history,62.99
+Qwen3-32B,DPO,MMLU-Pro,mmlu-pro,law,40.69
+Qwen3-32B,DPO,MMLU-Pro,mmlu-pro,math,80.16
+Qwen3-32B,DPO,MMLU-Pro,mmlu-pro,other,65.26
+Qwen3-32B,DPO,MMLU-Pro,mmlu-pro,philosophy,63.33
+Qwen3-32B,DPO,MMLU-Pro,mmlu-pro,physics,73.44
+Qwen3-32B,DPO,MMLU-Pro,mmlu-pro,psychology,76.44
+Qwen3-32B,DPO,MMLU-Pro,mmlu-pro,total,69.78
+Qwen3-32B,ReSo,MMLU-Pro,mmlu-pro,biology,86.75
+Qwen3-32B,ReSo,MMLU-Pro,mmlu-pro,business,76.3
+Qwen3-32B,ReSo,MMLU-Pro,mmlu-pro,chemistry,72.44
+Qwen3-32B,ReSo,MMLU-Pro,mmlu-pro,computer science,72.44
+Qwen3-32B,ReSo,MMLU-Pro,mmlu-pro,economics,79.74
+Qwen3-32B,ReSo,MMLU-Pro,mmlu-pro,engineering,54.8
+Qwen3-32B,ReSo,MMLU-Pro,mmlu-pro,health,72.62
+Qwen3-32B,ReSo,MMLU-Pro,mmlu-pro,history,62.2
+Qwen3-32B,ReSo,MMLU-Pro,mmlu-pro,law,41.42
+Qwen3-32B,ReSo,MMLU-Pro,mmlu-pro,math,80.31
+Qwen3-32B,ReSo,MMLU-Pro,mmlu-pro,other,66.77
+Qwen3-32B,ReSo,MMLU-Pro,mmlu-pro,philosophy,62.73
+Qwen3-32B,ReSo,MMLU-Pro,mmlu-pro,physics,72.59
+Qwen3-32B,ReSo,MMLU-Pro,mmlu-pro,psychology,76.57
+Qwen3-32B,ReSo,MMLU-Pro,mmlu-pro,total,69.82
+Qwen3-32B,ReSo-shuffle,MMLU-Pro,mmlu-pro,biology,85.5
+Qwen3-32B,ReSo-shuffle,MMLU-Pro,mmlu-pro,business,78.58
+Qwen3-32B,ReSo-shuffle,MMLU-Pro,mmlu-pro,chemistry,71.64
+Qwen3-32B,ReSo-shuffle,MMLU-Pro,mmlu-pro,computer science,73.41
+Qwen3-32B,ReSo-shuffle,MMLU-Pro,mmlu-pro,economics,80.92
+Qwen3-32B,ReSo-shuffle,MMLU-Pro,mmlu-pro,engineering,55.52
+Qwen3-32B,ReSo-shuffle,MMLU-Pro,mmlu-pro,health,72.13
+Qwen3-32B,ReSo-shuffle,MMLU-Pro,mmlu-pro,history,63.25
+Qwen3-32B,ReSo-shuffle,MMLU-Pro,mmlu-pro,law,41.96
+Qwen3-32B,ReSo-shuffle,MMLU-Pro,mmlu-pro,math,78.83
+Qwen3-32B,ReSo-shuffle,MMLU-Pro,mmlu-pro,other,65.48
+Qwen3-32B,ReSo-shuffle,MMLU-Pro,mmlu-pro,philosophy,62.93
+Qwen3-32B,ReSo-shuffle,MMLU-Pro,mmlu-pro,physics,72.9
+Qwen3-32B,ReSo-shuffle,MMLU-Pro,mmlu-pro,psychology,76.69
+Qwen3-32B,ReSo-shuffle,MMLU-Pro,mmlu-pro,total,69.83
+GPT-OSS-20B,Base,HarmBench,harmbench,contextual,91.0
+GPT-OSS-20B,Base,HarmBench,harmbench,standard,99.5
+GPT-OSS-20B,DPO,HarmBench,harmbench,contextual,83.0
+GPT-OSS-20B,DPO,HarmBench,harmbench,standard,99.5
+GPT-OSS-20B,ReSo,HarmBench,harmbench,contextual,96.0
+GPT-OSS-20B,ReSo,HarmBench,harmbench,standard,100.0
+GPT-OSS-20B,ReSo-shuffle,HarmBench,harmbench,contextual,94.0
+GPT-OSS-20B,ReSo-shuffle,HarmBench,harmbench,standard,100.0
+GPT-OSS-20B,Base,DeceptionBench,deceptionbench,economy,91.11
+GPT-OSS-20B,Base,DeceptionBench,deceptionbench,education,80.28
+GPT-OSS-20B,Base,DeceptionBench,deceptionbench,entertainment,90.0
+GPT-OSS-20B,Base,DeceptionBench,deceptionbench,healthcare,67.78
+GPT-OSS-20B,Base,DeceptionBench,deceptionbench,social,76.11
+GPT-OSS-20B,DPO,DeceptionBench,deceptionbench,economy,80.56
+GPT-OSS-20B,DPO,DeceptionBench,deceptionbench,education,72.78
+GPT-OSS-20B,DPO,DeceptionBench,deceptionbench,entertainment,75.0
+GPT-OSS-20B,DPO,DeceptionBench,deceptionbench,healthcare,70.56
+GPT-OSS-20B,DPO,DeceptionBench,deceptionbench,social,67.78
+GPT-OSS-20B,ReSo,DeceptionBench,deceptionbench,economy,91.11
+GPT-OSS-20B,ReSo,DeceptionBench,deceptionbench,education,83.33
+GPT-OSS-20B,ReSo,DeceptionBench,deceptionbench,entertainment,92.78
+GPT-OSS-20B,ReSo,DeceptionBench,deceptionbench,healthcare,71.79
+GPT-OSS-20B,ReSo,DeceptionBench,deceptionbench,social,79.72
+GPT-OSS-20B,ReSo-shuffle,DeceptionBench,deceptionbench,economy,93.33
+GPT-OSS-20B,ReSo-shuffle,DeceptionBench,deceptionbench,education,86.11
+GPT-OSS-20B,ReSo-shuffle,DeceptionBench,deceptionbench,entertainment,93.89
+GPT-OSS-20B,ReSo-shuffle,DeceptionBench,deceptionbench,healthcare,81.12
+GPT-OSS-20B,ReSo-shuffle,DeceptionBench,deceptionbench,social,80.56
+GPT-OSS-20B,Base,OpenRT,openrt,actorattack,78.33
+GPT-OSS-20B,Base,OpenRT,openrt,artprompt,89.45
+GPT-OSS-20B,Base,OpenRT,openrt,autodan,77.08
+GPT-OSS-20B,Base,OpenRT,openrt,autodan_r,83.63
+GPT-OSS-20B,Base,OpenRT,openrt,cipherchat,96.05
+GPT-OSS-20B,Base,OpenRT,openrt,coa,96.25
+GPT-OSS-20B,Base,OpenRT,openrt,codeattack,65.83
+GPT-OSS-20B,Base,OpenRT,openrt,crescendo,80.83
+GPT-OSS-20B,Base,OpenRT,openrt,deepinception,94.17
+GPT-OSS-20B,Base,OpenRT,openrt,drattack,68.24
+GPT-OSS-20B,Base,OpenRT,openrt,flipattack,84.89
+GPT-OSS-20B,Base,OpenRT,openrt,gcg,97.08
+GPT-OSS-20B,Base,OpenRT,openrt,gptfuzzer,77.08
+GPT-OSS-20B,Base,OpenRT,openrt,ica,100.0
+GPT-OSS-20B,Base,OpenRT,openrt,jailbroken,95.42
+GPT-OSS-20B,Base,OpenRT,openrt,laa,95.0
+GPT-OSS-20B,Base,OpenRT,openrt,mousetrap,6.16
+GPT-OSS-20B,Base,OpenRT,openrt,multilingual,99.58
+GPT-OSS-20B,Base,OpenRT,openrt,pair,75.0
+GPT-OSS-20B,Base,OpenRT,openrt,pasttense,76.25
+GPT-OSS-20B,Base,OpenRT,openrt,prefill,98.75
+GPT-OSS-20B,Base,OpenRT,openrt,race,93.75
+GPT-OSS-20B,Base,OpenRT,openrt,redqueen,100.0
+GPT-OSS-20B,Base,OpenRT,openrt,renellm,37.08
+GPT-OSS-20B,Base,OpenRT,openrt,seqar,91.25
+GPT-OSS-20B,Base,OpenRT,openrt,treeattack,84.58
+GPT-OSS-20B,Base,OpenRT,openrt,xteaming,41.67
+GPT-OSS-20B,DPO,OpenRT,openrt,actorattack,73.75
+GPT-OSS-20B,DPO,OpenRT,openrt,artprompt,85.53
+GPT-OSS-20B,DPO,OpenRT,openrt,autodan,73.75
+GPT-OSS-20B,DPO,OpenRT,openrt,autodan_r,62.28
+GPT-OSS-20B,DPO,OpenRT,openrt,cipherchat,90.67
+GPT-OSS-20B,DPO,OpenRT,openrt,coa,95.83
+GPT-OSS-20B,DPO,OpenRT,openrt,codeattack,59.41
+GPT-OSS-20B,DPO,OpenRT,openrt,crescendo,69.17
+GPT-OSS-20B,DPO,OpenRT,openrt,deepinception,89.58
+GPT-OSS-20B,DPO,OpenRT,openrt,drattack,57.05
+GPT-OSS-20B,DPO,OpenRT,openrt,flipattack,87.61
+GPT-OSS-20B,DPO,OpenRT,openrt,gcg,94.17
+GPT-OSS-20B,DPO,OpenRT,openrt,gptfuzzer,72.08
+GPT-OSS-20B,DPO,OpenRT,openrt,ica,100.0
+GPT-OSS-20B,DPO,OpenRT,openrt,jailbroken,93.75
+GPT-OSS-20B,DPO,OpenRT,openrt,laa,86.67
+GPT-OSS-20B,DPO,OpenRT,openrt,mousetrap,10.88
+GPT-OSS-20B,DPO,OpenRT,openrt,multilingual,95.42
+GPT-OSS-20B,DPO,OpenRT,openrt,pair,68.75
+GPT-OSS-20B,DPO,OpenRT,openrt,pasttense,70.83
+GPT-OSS-20B,DPO,OpenRT,openrt,prefill,95.42
+GPT-OSS-20B,DPO,OpenRT,openrt,race,88.75
+GPT-OSS-20B,DPO,OpenRT,openrt,redqueen,96.25
+GPT-OSS-20B,DPO,OpenRT,openrt,renellm,17.5
+GPT-OSS-20B,DPO,OpenRT,openrt,seqar,71.67
+GPT-OSS-20B,DPO,OpenRT,openrt,treeattack,77.08
+GPT-OSS-20B,DPO,OpenRT,openrt,xteaming,32.92
+GPT-OSS-20B,ReSo,OpenRT,openrt,actorattack,83.75
+GPT-OSS-20B,ReSo,OpenRT,openrt,artprompt,92.59
+GPT-OSS-20B,ReSo,OpenRT,openrt,autodan,83.75
+GPT-OSS-20B,ReSo,OpenRT,openrt,autodan_r,87.83
+GPT-OSS-20B,ReSo,OpenRT,openrt,cipherchat,91.16
+GPT-OSS-20B,ReSo,OpenRT,openrt,coa,97.92
+GPT-OSS-20B,ReSo,OpenRT,openrt,codeattack,72.38
+GPT-OSS-20B,ReSo,OpenRT,openrt,crescendo,80.83
+GPT-OSS-20B,ReSo,OpenRT,openrt,deepinception,97.5
+GPT-OSS-20B,ReSo,OpenRT,openrt,drattack,76.67
+GPT-OSS-20B,ReSo,OpenRT,openrt,flipattack,94.41
+GPT-OSS-20B,ReSo,OpenRT,openrt,gcg,97.49
+GPT-OSS-20B,ReSo,OpenRT,openrt,gptfuzzer,87.92
+GPT-OSS-20B,ReSo,OpenRT,openrt,ica,100.0
+GPT-OSS-20B,ReSo,OpenRT,openrt,jailbroken,97.08
+GPT-OSS-20B,ReSo,OpenRT,openrt,laa,96.25
+GPT-OSS-20B,ReSo,OpenRT,openrt,mousetrap,11.28
+GPT-OSS-20B,ReSo,OpenRT,openrt,multilingual,100.0
+GPT-OSS-20B,ReSo,OpenRT,openrt,pair,79.58
+GPT-OSS-20B,ReSo,OpenRT,openrt,pasttense,86.67
+GPT-OSS-20B,ReSo,OpenRT,openrt,prefill,99.58
+GPT-OSS-20B,ReSo,OpenRT,openrt,race,94.17
+GPT-OSS-20B,ReSo,OpenRT,openrt,redqueen,100.0
+GPT-OSS-20B,ReSo,OpenRT,openrt,renellm,40.42
+GPT-OSS-20B,ReSo,OpenRT,openrt,seqar,94.58
+GPT-OSS-20B,ReSo,OpenRT,openrt,treeattack,84.58
+GPT-OSS-20B,ReSo,OpenRT,openrt,xteaming,42.92
+GPT-OSS-20B,ReSo-shuffle,OpenRT,openrt,actorattack,82.5
+GPT-OSS-20B,ReSo-shuffle,OpenRT,openrt,artprompt,88.94
+GPT-OSS-20B,ReSo-shuffle,OpenRT,openrt,autodan,82.92
+GPT-OSS-20B,ReSo-shuffle,OpenRT,openrt,autodan_r,89.56
+GPT-OSS-20B,ReSo-shuffle,OpenRT,openrt,cipherchat,92.54
+GPT-OSS-20B,ReSo-shuffle,OpenRT,openrt,coa,98.33
+GPT-OSS-20B,ReSo-shuffle,OpenRT,openrt,codeattack,70.0
+GPT-OSS-20B,ReSo-shuffle,OpenRT,openrt,crescendo,85.42
+GPT-OSS-20B,ReSo-shuffle,OpenRT,openrt,deepinception,92.08
+GPT-OSS-20B,ReSo-shuffle,OpenRT,openrt,drattack,72.67
+GPT-OSS-20B,ReSo-shuffle,OpenRT,openrt,flipattack,93.87
+GPT-OSS-20B,ReSo-shuffle,OpenRT,openrt,gcg,99.16
+GPT-OSS-20B,ReSo-shuffle,OpenRT,openrt,gptfuzzer,83.75
+GPT-OSS-20B,ReSo-shuffle,OpenRT,openrt,ica,100.0
+GPT-OSS-20B,ReSo-shuffle,OpenRT,openrt,jailbroken,98.75
+GPT-OSS-20B,ReSo-shuffle,OpenRT,openrt,laa,98.75
+GPT-OSS-20B,ReSo-shuffle,OpenRT,openrt,mousetrap,7.32
+GPT-OSS-20B,ReSo-shuffle,OpenRT,openrt,multilingual,100.0
+GPT-OSS-20B,ReSo-shuffle,OpenRT,openrt,pair,77.92
+GPT-OSS-20B,ReSo-shuffle,OpenRT,openrt,pasttense,87.92
+GPT-OSS-20B,ReSo-shuffle,OpenRT,openrt,prefill,99.58
+GPT-OSS-20B,ReSo-shuffle,OpenRT,openrt,race,96.67
+GPT-OSS-20B,ReSo-shuffle,OpenRT,openrt,redqueen,90.42
+GPT-OSS-20B,ReSo-shuffle,OpenRT,openrt,renellm,32.08
+GPT-OSS-20B,ReSo-shuffle,OpenRT,openrt,seqar,97.5
+GPT-OSS-20B,ReSo-shuffle,OpenRT,openrt,treeattack,86.25
+GPT-OSS-20B,ReSo-shuffle,OpenRT,openrt,xteaming,51.67
+GPT-OSS-20B,Base,XSTest,xstest,safe compliance,9.27
+GPT-OSS-20B,Base,XSTest,xstest,unsafe refusal,99.49
+GPT-OSS-20B,DPO,XSTest,xstest,safe compliance,91.57
+GPT-OSS-20B,DPO,XSTest,xstest,unsafe refusal,94.5
+GPT-OSS-20B,ReSo,XSTest,xstest,safe compliance,78.4
+GPT-OSS-20B,ReSo,XSTest,xstest,unsafe refusal,99.5
+GPT-OSS-20B,ReSo-shuffle,XSTest,xstest,safe compliance,75.2
+GPT-OSS-20B,ReSo-shuffle,XSTest,xstest,unsafe refusal,100.0
+GPT-OSS-20B,Base,ETHICS,ethics,dil,30.9
+GPT-OSS-20B,Base,ETHICS,ethics,mfq,89.07
+GPT-OSS-20B,Base,ETHICS,ethics,wvs,58.19
+GPT-OSS-20B,DPO,ETHICS,ethics,dil,31.13
+GPT-OSS-20B,DPO,ETHICS,ethics,mfq,87.6
+GPT-OSS-20B,DPO,ETHICS,ethics,wvs,63.9
+GPT-OSS-20B,ReSo,ETHICS,ethics,dil,31.21
+GPT-OSS-20B,ReSo,ETHICS,ethics,mfq,87.33
+GPT-OSS-20B,ReSo,ETHICS,ethics,wvs,50.57
+GPT-OSS-20B,ReSo-shuffle,ETHICS,ethics,dil,30.93
+GPT-OSS-20B,ReSo-shuffle,ETHICS,ethics,mfq,86.8
+GPT-OSS-20B,ReSo-shuffle,ETHICS,ethics,wvs,65.81
+GPT-OSS-20B,Base,FLAMES,flames,Data protection,65.33
+GPT-OSS-20B,Base,FLAMES,flames,Fairness,77.78
+GPT-OSS-20B,Base,FLAMES,flames,Legality,75.36
+GPT-OSS-20B,Base,FLAMES,flames,Morality,77.45
+GPT-OSS-20B,Base,FLAMES,flames,Safety,65.58
+GPT-OSS-20B,DPO,FLAMES,flames,Data protection,58.22
+GPT-OSS-20B,DPO,FLAMES,flames,Fairness,73.76
+GPT-OSS-20B,DPO,FLAMES,flames,Legality,65.22
+GPT-OSS-20B,DPO,FLAMES,flames,Morality,73.8
+GPT-OSS-20B,DPO,FLAMES,flames,Safety,61.15
+GPT-OSS-20B,ReSo,FLAMES,flames,Data protection,64.44
+GPT-OSS-20B,ReSo,FLAMES,flames,Fairness,79.25
+GPT-OSS-20B,ReSo,FLAMES,flames,Legality,79.71
+GPT-OSS-20B,ReSo,FLAMES,flames,Morality,79.6
+GPT-OSS-20B,ReSo,FLAMES,flames,Safety,66.9
+GPT-OSS-20B,ReSo-shuffle,FLAMES,flames,Data protection,68.89
+GPT-OSS-20B,ReSo-shuffle,FLAMES,flames,Fairness,80.46
+GPT-OSS-20B,ReSo-shuffle,FLAMES,flames,Legality,82.61
+GPT-OSS-20B,ReSo-shuffle,FLAMES,flames,Morality,78.11
+GPT-OSS-20B,ReSo-shuffle,FLAMES,flames,Safety,68.45
+GPT-OSS-20B,Base,MoReBench,morebench,ai_advisor,53.8
+GPT-OSS-20B,Base,MoReBench,morebench,ai_agent,58.7
+GPT-OSS-20B,Base,MoReBench,morebench,ai_risk,58.7
+GPT-OSS-20B,Base,MoReBench,morebench,clear process,55.7
+GPT-OSS-20B,Base,MoReBench,morebench,daily_dilemmas,52.2
+GPT-OSS-20B,Base,MoReBench,morebench,expert_written,57.2
+GPT-OSS-20B,Base,MoReBench,morebench,harmless outcome,83.0
+GPT-OSS-20B,Base,MoReBench,morebench,helpful outcome,52.2
+GPT-OSS-20B,Base,MoReBench,morebench,identifying,50.8
+GPT-OSS-20B,Base,MoReBench,morebench,logical process,46.9
+GPT-OSS-20B,DPO,MoReBench,morebench,ai_advisor,60.9
+GPT-OSS-20B,DPO,MoReBench,morebench,ai_agent,60.2
+GPT-OSS-20B,DPO,MoReBench,morebench,ai_risk,60.4
+GPT-OSS-20B,DPO,MoReBench,morebench,clear process,60.9
+GPT-OSS-20B,DPO,MoReBench,morebench,daily_dilemmas,59.1
+GPT-OSS-20B,DPO,MoReBench,morebench,expert_written,64.0
+GPT-OSS-20B,DPO,MoReBench,morebench,harmless outcome,85.7
+GPT-OSS-20B,DPO,MoReBench,morebench,helpful outcome,52.7
+GPT-OSS-20B,DPO,MoReBench,morebench,identifying,57.5
+GPT-OSS-20B,DPO,MoReBench,morebench,logical process,51.9
+GPT-OSS-20B,ReSo,MoReBench,morebench,ai_advisor,56.5
+GPT-OSS-20B,ReSo,MoReBench,morebench,ai_agent,59.1
+GPT-OSS-20B,ReSo,MoReBench,morebench,ai_risk,58.9
+GPT-OSS-20B,ReSo,MoReBench,morebench,clear process,57.4
+GPT-OSS-20B,ReSo,MoReBench,morebench,daily_dilemmas,53.5
+GPT-OSS-20B,ReSo,MoReBench,morebench,expert_written,63.0
+GPT-OSS-20B,ReSo,MoReBench,morebench,harmless outcome,85.0
+GPT-OSS-20B,ReSo,MoReBench,morebench,helpful outcome,54.2
+GPT-OSS-20B,ReSo,MoReBench,morebench,identifying,52.5
+GPT-OSS-20B,ReSo,MoReBench,morebench,logical process,49.0
+GPT-OSS-20B,ReSo-shuffle,MoReBench,morebench,ai_advisor,54.3
+GPT-OSS-20B,ReSo-shuffle,MoReBench,morebench,ai_agent,58.6
+GPT-OSS-20B,ReSo-shuffle,MoReBench,morebench,ai_risk,58.8
+GPT-OSS-20B,ReSo-shuffle,MoReBench,morebench,clear process,56.3
+GPT-OSS-20B,ReSo-shuffle,MoReBench,morebench,daily_dilemmas,51.7
+GPT-OSS-20B,ReSo-shuffle,MoReBench,morebench,expert_written,59.7
+GPT-OSS-20B,ReSo-shuffle,MoReBench,morebench,harmless outcome,84.4
+GPT-OSS-20B,ReSo-shuffle,MoReBench,morebench,helpful outcome,52.1
+GPT-OSS-20B,ReSo-shuffle,MoReBench,morebench,identifying,51.7
+GPT-OSS-20B,ReSo-shuffle,MoReBench,morebench,logical process,46.2
+GPT-OSS-20B,Base,HaluEval,halueval,dialogue,70.71
+GPT-OSS-20B,Base,HaluEval,halueval,qa,67.65
+GPT-OSS-20B,Base,HaluEval,halueval,summarization,65.81
+GPT-OSS-20B,DPO,HaluEval,halueval,dialogue,69.51
+GPT-OSS-20B,DPO,HaluEval,halueval,qa,65.56
+GPT-OSS-20B,DPO,HaluEval,halueval,summarization,58.13
+GPT-OSS-20B,ReSo,HaluEval,halueval,dialogue,72.18
+GPT-OSS-20B,ReSo,HaluEval,halueval,qa,68.42
+GPT-OSS-20B,ReSo,HaluEval,halueval,summarization,67.34
+GPT-OSS-20B,ReSo-shuffle,HaluEval,halueval,dialogue,68.26
+GPT-OSS-20B,ReSo-shuffle,HaluEval,halueval,qa,65.57
+GPT-OSS-20B,ReSo-shuffle,HaluEval,halueval,summarization,67.18
+GPT-OSS-20B,Base,MMLU-Pro,mmlu-pro,biology,74.76
+GPT-OSS-20B,Base,MMLU-Pro,mmlu-pro,business,62.99
+GPT-OSS-20B,Base,MMLU-Pro,mmlu-pro,chemistry,52.12
+GPT-OSS-20B,Base,MMLU-Pro,mmlu-pro,computer science,69.51
+GPT-OSS-20B,Base,MMLU-Pro,mmlu-pro,economics,66.59
+GPT-OSS-20B,Base,MMLU-Pro,mmlu-pro,engineering,34.06
+GPT-OSS-20B,Base,MMLU-Pro,mmlu-pro,health,58.56
+GPT-OSS-20B,Base,MMLU-Pro,mmlu-pro,history,38.58
+GPT-OSS-20B,Base,MMLU-Pro,mmlu-pro,law,17.17
+GPT-OSS-20B,Base,MMLU-Pro,mmlu-pro,math,70.02
+GPT-OSS-20B,Base,MMLU-Pro,mmlu-pro,other,45.24
+GPT-OSS-20B,Base,MMLU-Pro,mmlu-pro,philosophy,39.48
+GPT-OSS-20B,Base,MMLU-Pro,mmlu-pro,physics,63.51
+GPT-OSS-20B,Base,MMLU-Pro,mmlu-pro,psychology,60.78
+GPT-OSS-20B,Base,MMLU-Pro,mmlu-pro,total,53.91
+GPT-OSS-20B,DPO,MMLU-Pro,mmlu-pro,biology,75.73
+GPT-OSS-20B,DPO,MMLU-Pro,mmlu-pro,business,68.82
+GPT-OSS-20B,DPO,MMLU-Pro,mmlu-pro,chemistry,51.06
+GPT-OSS-20B,DPO,MMLU-Pro,mmlu-pro,computer science,71.71
+GPT-OSS-20B,DPO,MMLU-Pro,mmlu-pro,economics,70.14
+GPT-OSS-20B,DPO,MMLU-Pro,mmlu-pro,engineering,39.32
+GPT-OSS-20B,DPO,MMLU-Pro,mmlu-pro,health,62.96
+GPT-OSS-20B,DPO,MMLU-Pro,mmlu-pro,history,45.93
+GPT-OSS-20B,DPO,MMLU-Pro,mmlu-pro,law,18.62
+GPT-OSS-20B,DPO,MMLU-Pro,mmlu-pro,math,70.47
+GPT-OSS-20B,DPO,MMLU-Pro,mmlu-pro,other,52.6
+GPT-OSS-20B,DPO,MMLU-Pro,mmlu-pro,philosophy,48.9
+GPT-OSS-20B,DPO,MMLU-Pro,mmlu-pro,physics,66.2
+GPT-OSS-20B,DPO,MMLU-Pro,mmlu-pro,psychology,63.78
+GPT-OSS-20B,DPO,MMLU-Pro,mmlu-pro,total,57.16
+GPT-OSS-20B,ReSo,MMLU-Pro,mmlu-pro,biology,71.97
+GPT-OSS-20B,ReSo,MMLU-Pro,mmlu-pro,business,63.37
+GPT-OSS-20B,ReSo,MMLU-Pro,mmlu-pro,chemistry,53.09
+GPT-OSS-20B,ReSo,MMLU-Pro,mmlu-pro,computer science,68.29
+GPT-OSS-20B,ReSo,MMLU-Pro,mmlu-pro,economics,63.15
+GPT-OSS-20B,ReSo,MMLU-Pro,mmlu-pro,engineering,34.57
+GPT-OSS-20B,ReSo,MMLU-Pro,mmlu-pro,health,58.07
+GPT-OSS-20B,ReSo,MMLU-Pro,mmlu-pro,history,38.06
+GPT-OSS-20B,ReSo,MMLU-Pro,mmlu-pro,law,14.35
+GPT-OSS-20B,ReSo,MMLU-Pro,mmlu-pro,math,72.91
+GPT-OSS-20B,ReSo,MMLU-Pro,mmlu-pro,other,46.54
+GPT-OSS-20B,ReSo,MMLU-Pro,mmlu-pro,philosophy,39.68
+GPT-OSS-20B,ReSo,MMLU-Pro,mmlu-pro,physics,61.51
+GPT-OSS-20B,ReSo,MMLU-Pro,mmlu-pro,psychology,60.53
+GPT-OSS-20B,ReSo,MMLU-Pro,mmlu-pro,total,53.51
+GPT-OSS-20B,ReSo-shuffle,MMLU-Pro,mmlu-pro,biology,75.59
+GPT-OSS-20B,ReSo-shuffle,MMLU-Pro,mmlu-pro,business,63.37
+GPT-OSS-20B,ReSo-shuffle,MMLU-Pro,mmlu-pro,chemistry,60.34
+GPT-OSS-20B,ReSo-shuffle,MMLU-Pro,mmlu-pro,computer science,70.49
+GPT-OSS-20B,ReSo-shuffle,MMLU-Pro,mmlu-pro,economics,67.89
+GPT-OSS-20B,ReSo-shuffle,MMLU-Pro,mmlu-pro,engineering,33.85
+GPT-OSS-20B,ReSo-shuffle,MMLU-Pro,mmlu-pro,health,59.9
+GPT-OSS-20B,ReSo-shuffle,MMLU-Pro,mmlu-pro,history,38.58
+GPT-OSS-20B,ReSo-shuffle,MMLU-Pro,mmlu-pro,law,19.53
+GPT-OSS-20B,ReSo-shuffle,MMLU-Pro,mmlu-pro,math,69.13
+GPT-OSS-20B,ReSo-shuffle,MMLU-Pro,mmlu-pro,other,50.65
+GPT-OSS-20B,ReSo-shuffle,MMLU-Pro,mmlu-pro,philosophy,43.09
+GPT-OSS-20B,ReSo-shuffle,MMLU-Pro,mmlu-pro,physics,64.36
+GPT-OSS-20B,ReSo-shuffle,MMLU-Pro,mmlu-pro,psychology,61.03
+GPT-OSS-20B,ReSo-shuffle,MMLU-Pro,mmlu-pro,total,55.74

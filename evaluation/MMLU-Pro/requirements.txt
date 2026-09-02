@@ -1,0 +1,5 @@
+datasets>=2.18
+torch>=2.1
+tqdm>=4.66
+transformers>=4.40
+vllm>=0.10

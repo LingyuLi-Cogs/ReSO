@@ -1,0 +1,135 @@
+{
+  "scope": {
+    "dataset": "Original dataset/*.csv and *_buckets.json, not action_grouped",
+    "fixture_seed": 42,
+    "rsa_per_domain": 150,
+    "judge_per_domain": 100,
+    "actual_run_args_or_per_item_model_outputs_available": false,
+    "overlap_definition": "Exact text occurs in training data bank; actual sampling exposure not established",
+    "fixtures_conditional_on_current_code_defaults": true,
+    "accuracy_bound_scope": "Rescoring the same checkpoint after excluding overlap, not the causal effect of retraining or checkpoint reselection"
+  },
+  "full_splits": {
+    "val": {
+      "rows": 25170,
+      "overlap_rows": 4714,
+      "fraction": 0.1872864521255463,
+      "overlap_unique_actions": 2659,
+      "normalized_overlap_rows": 4723
+    },
+    "test": {
+      "rows": 25141,
+      "overlap_rows": 4803,
+      "fraction": 0.19104252018615012,
+      "overlap_unique_actions": 2730,
+      "normalized_overlap_rows": 4811
+    }
+  },
+  "rsa": {
+    "items": 750,
+    "overlap_items": 136,
+    "item_fraction": 0.18133333333333335,
+    "valid_within_foundation_pairs": 55813,
+    "pairs_touching_overlap": 18439,
+    "touched_pair_fraction": 0.330371060505617,
+    "both_endpoints_overlap": 1825,
+    "both_endpoints_fraction": 0.03269847526561912,
+    "clean_pairs": 37374,
+    "per_domain": {
+      "care-harm": {
+        "overlap_items": 30,
+        "pairs": 11175,
+        "touched_pairs": 4035
+      },
+      "fairness-cheating": {
+        "overlap_items": 22,
+        "pairs": 11165,
+        "touched_pairs": 3047
+      },
+      "loyalty-betrayal": {
+        "overlap_items": 33,
+        "pairs": 11163,
+        "touched_pairs": 4389
+      },
+      "authority-subversion": {
+        "overlap_items": 28,
+        "pairs": 11155,
+        "touched_pairs": 3794
+      },
+      "sanctity-degradation": {
+        "overlap_items": 23,
+        "pairs": 11155,
+        "touched_pairs": 3174
+      }
+    }
+  },
+  "judgment_accuracy": {
+    "items": 478,
+    "overlap_items": 83,
+    "clean_items": 395,
+    "overlap_fraction": 0.17364016736401675,
+    "unconditional_full_vs_clean_accuracy_difference_bound": 0.17364016736401675,
+    "formula": "max(0, (N*A-k)/(N-k)) <= A_clean <= min(1, N*A/(N-k))",
+    "illustrative_not_measured": {
+      "0.69": {
+        "clean_accuracy_min": 0.6248607594936708,
+        "clean_accuracy_max": 0.8349873417721518,
+        "max_full_minus_clean": 0.06513924050632913
+      },
+      "0.7": {
+        "clean_accuracy_min": 0.6369620253164556,
+        "clean_accuracy_max": 0.8470886075949366,
+        "max_full_minus_clean": 0.06303797468354433
+      },
+      "0.75": {
+        "clean_accuracy_min": 0.6974683544303797,
+        "clean_accuracy_max": 0.9075949367088608,
+        "max_full_minus_clean": 0.05253164556962031
+      },
+      "0.78": {
+        "clean_accuracy_min": 0.7337721518987342,
+        "clean_accuracy_max": 0.9438987341772153,
+        "max_full_minus_clean": 0.04622784810126579
+      }
+    }
+  },
+  "triplet_accuracy": {
+    "triplets": 16640,
+    "touched_triplets": 7011,
+    "fraction": 0.4213341346153846
+  },
+  "synthetic_rsa_counterexample": {
+    "warning": "Synthetic, adversarial, calibrated to two reported RSA values using held-out human labels; NOT a model measurement, leakage estimate, probability, or exact maximum.",
+    "clean_clean_cosines_identical": true,
+    "unique_texts": 705,
+    "noise_seed": 1234,
+    "epsilon": 1e-06,
+    "states": [
+      {
+        "target_full_rsa": 0.0598111777070982,
+        "alpha": 0.169002159316733,
+        "full_rsa": 0.05981117932137298,
+        "clean_only_rsa": 0.006106887183148085,
+        "offdiagonal_absolute_row_sum_max": 0.00023621857631273002,
+        "gram_min_eigenvalue_lower_bound": 0.9997637814236873
+      },
+      {
+        "target_full_rsa": 0.2405143236665962,
+        "alpha": 0.5983647166212904,
+        "full_rsa": 0.24051432395194314,
+        "clean_only_rsa": 0.006106887183148085,
+        "offdiagonal_absolute_row_sum_max": 0.0002353436572293255,
+        "gram_min_eigenvalue_lower_bound": 0.9997646563427707
+      }
+    ],
+    "full_rsa_increase": 0.18070314463057016
+  },
+  "input_sha256": {
+    "training/reso_train.py": "81494145c2c2da28f1d188b1deb51385c7e3d16c0fa927cebd18fc04612ed930",
+    "original data/rsa_asr_pooled_all.points.csv": "1ee24642bbcf73079c86b149bbbfa55c61dab37c7a1b59b72f7cd26b764f4053",
+    "dataset/social_chem_train_expanded.csv": "e185a9f2806ba5194f23e7227d0ada7bcedd4377e4f4f59ad1220f2646e204fd",
+    "dataset/social_chem_val_expanded.csv": "6de064f48ec13bd4b8f6e9741ade3645de63b85d1395bcb36a5d7f2f0e881cdd",
+    "dataset/social_chem_test_expanded.csv": "39c910d8356b8b4d19badcc72e4c9a66066240c58713c72f0be63d1970103f6a",
+    "dataset/val_buckets.json": "39b16fe42ebb68cd7effc3cee2e735e7d1badcc231658b4be9c6c322006f2f66"
+  }
+}

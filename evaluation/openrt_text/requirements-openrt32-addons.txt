@@ -1,0 +1,7 @@
+# Install this file into the supplied environment. It adds only packages that
+# are absent from the attached package list; transitive dependencies are left
+# enabled so pip can install the spaCy-free sklearn helpers.
+sentence-transformers==5.1.0
+scikit-learn==1.7.2
+nltk==3.9.2
+art==6.5
