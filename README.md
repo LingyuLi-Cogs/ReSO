@@ -1,5 +1,4 @@
 # Representational alignment yields generalizable safety in language models
-> Anonymous review repository.
 
 ## Repository guide
 
